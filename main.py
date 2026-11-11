@@ -1,16 +1,23 @@
-# This is a sample Python script.
+import os, sys
 
-# Press Maj+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+os.environ["JAVA_HOME"] = r"C:\Program Files\Eclipse Adoptium\jdk-21.0.13.9-hotspot"
+os.environ["PATH"] = os.environ["JAVA_HOME"] + r"\bin;" + os.environ["PATH"]
+os.environ["PYSPARK_PYTHON"] = sys.executable
 
+from pyspark.sql import SparkSession
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+spark = (
+    SparkSession.builder
+    .master("local[*]")
+    .config("spark.driver.host", "127.0.0.1")
+    .config("spark.driver.bindAddress", "127.0.0.1")
+    .getOrCreate()
+)
 
+df_perso = spark.read.option("multiLine", True).json("../data/personnages_fr.json")
+df_perso.show()
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+display(df_perso.limit(5))
+df_perso.show(20)
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+print(f"Nombre total de personnages : { df_perso.count() }")
