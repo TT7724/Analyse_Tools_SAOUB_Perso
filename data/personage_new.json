@@ -1,0 +1,328 @@
+{
+  "source": "Persos générés par l'outil de création (POC)",
+  "nb_personnages": 2,
+  "personnages": [
+    {
+      "id": 999000001,
+      "nom": "Mon perso",
+      "nom_complet": "[Mon titre] Mon perso",
+      "traduction_fr_officielle": false,
+      "titre": "[Mon titre]",
+      "nom_en": "",
+      "nom_jp": "",
+      "element": "feu",
+      "arme": "Épée",
+      "rarete": 4,
+      "niveaux_paliers": {
+        "eveil_0": 80,
+        "eveil_max": 100,
+        "niveau_max": 120
+      },
+      "stats": {
+        "lvl_1": {
+          "HP": 1650,
+          "MP": 142,
+          "ATK": 560,
+          "MATK": 485,
+          "DEF": 318,
+          "MDEF": 303,
+          "CRIT": 285,
+          "SPD": 242
+        },
+        "lvl_80": {
+          "HP": 6600,
+          "MP": 213,
+          "ATK": 2240,
+          "MATK": 1940,
+          "DEF": 1272,
+          "MDEF": 1212,
+          "CRIT": 684,
+          "SPD": 320
+        },
+        "lvl_100": {
+          "HP": 8250,
+          "MP": 249,
+          "ATK": 2800,
+          "MATK": 2425,
+          "DEF": 1590,
+          "MDEF": 1515,
+          "CRIT": 784,
+          "SPD": 339
+        },
+        "lvl_120": {
+          "HP": 9900,
+          "MP": 270,
+          "ATK": 3360,
+          "MATK": 2910,
+          "DEF": 1908,
+          "MDEF": 1818,
+          "CRIT": 841,
+          "SPD": 349
+        }
+      },
+      "stats_lvl_100": {
+        "HP": 8250,
+        "MP": 249,
+        "ATK": 2800,
+        "MATK": 2425,
+        "DEF": 1590,
+        "MDEF": 1515,
+        "CRIT": 784,
+        "SPD": 339
+      },
+      "regen_mp_taux": 500,
+      "description": "",
+      "competences": {
+        "competence_1": {
+          "nom": "",
+          "type": "",
+          "categorie": "",
+          "incarnation": false,
+          "niveaux": [
+            {
+              "niveau": 1,
+              "id": null,
+              "nom": "",
+              "description": "",
+              "mp": null,
+              "puissance": null
+            }
+          ]
+        },
+        "competence_2": {
+          "nom": "",
+          "type": "",
+          "categorie": "",
+          "incarnation": false,
+          "niveaux": [
+            {
+              "niveau": 1,
+              "id": null,
+              "nom": "",
+              "description": "",
+              "mp": null,
+              "puissance": null
+            }
+          ]
+        },
+        "competence_3": {
+          "nom": "",
+          "type": "",
+          "categorie": "",
+          "incarnation": false,
+          "niveaux": [
+            {
+              "niveau": 1,
+              "id": null,
+              "nom": "",
+              "description": "",
+              "mp": null,
+              "puissance": null
+            }
+          ]
+        },
+        "incarnation": {
+          "nom": "",
+          "type": "",
+          "categorie": "",
+          "incarnation": true,
+          "niveaux": [
+            {
+              "niveau": 1,
+              "id": null,
+              "nom": "",
+              "description": "",
+              "mp": null,
+              "puissance": null
+            }
+          ]
+        }
+      },
+      "label": "character.nouveau_999000001",
+      "genere": true,
+      "kit_propose": [
+        "Attaque supplémentaire",
+        "Bonus ATK (alliés)",
+        "Dégâts + : ennemi en dégâts continus",
+        "Dégâts continus",
+        "Rôle Charge"
+      ],
+      "parametres_generation": {
+        "graine": 0,
+        "contraintes_stats": {
+          "famille": "physique",
+          "ATK": {
+            "egal": 2800
+          },
+          "SPD": {
+            "pct_min": 80
+          }
+        },
+        "imposes_kit": [
+          "Dégâts continus"
+        ]
+      }
+    },
+    {
+      "id": 999000002,
+      "nom": "Eugeo",
+      "nom_complet": "[pas bo] Eugeo",
+      "traduction_fr_officielle": false,
+      "titre": "[pas bo]",
+      "nom_en": "",
+      "nom_jp": "",
+      "element": "feu",
+      "arme": "Épée",
+      "rarete": 4,
+      "niveaux_paliers": {
+        "eveil_0": 80,
+        "eveil_max": 100,
+        "niveau_max": 120
+      },
+      "stats": {
+        "lvl_1": {
+          "HP": 1650,
+          "MP": 142,
+          "ATK": 560,
+          "MATK": 485,
+          "DEF": 318,
+          "MDEF": 303,
+          "CRIT": 285,
+          "SPD": 242
+        },
+        "lvl_80": {
+          "HP": 6600,
+          "MP": 213,
+          "ATK": 2240,
+          "MATK": 1940,
+          "DEF": 1272,
+          "MDEF": 1212,
+          "CRIT": 684,
+          "SPD": 320
+        },
+        "lvl_100": {
+          "HP": 8250,
+          "MP": 249,
+          "ATK": 2800,
+          "MATK": 2425,
+          "DEF": 1590,
+          "MDEF": 1515,
+          "CRIT": 784,
+          "SPD": 339
+        },
+        "lvl_120": {
+          "HP": 9900,
+          "MP": 270,
+          "ATK": 3360,
+          "MATK": 2910,
+          "DEF": 1908,
+          "MDEF": 1818,
+          "CRIT": 841,
+          "SPD": 349
+        }
+      },
+      "stats_lvl_100": {
+        "HP": 8250,
+        "MP": 249,
+        "ATK": 2800,
+        "MATK": 2425,
+        "DEF": 1590,
+        "MDEF": 1515,
+        "CRIT": 784,
+        "SPD": 339
+      },
+      "regen_mp_taux": 500,
+      "description": "",
+      "competences": {
+        "competence_1": {
+          "nom": "",
+          "type": "",
+          "categorie": "",
+          "incarnation": false,
+          "niveaux": [
+            {
+              "niveau": 1,
+              "id": null,
+              "nom": "",
+              "description": "",
+              "mp": null,
+              "puissance": null
+            }
+          ]
+        },
+        "competence_2": {
+          "nom": "",
+          "type": "",
+          "categorie": "",
+          "incarnation": false,
+          "niveaux": [
+            {
+              "niveau": 1,
+              "id": null,
+              "nom": "",
+              "description": "",
+              "mp": null,
+              "puissance": null
+            }
+          ]
+        },
+        "competence_3": {
+          "nom": "",
+          "type": "",
+          "categorie": "",
+          "incarnation": false,
+          "niveaux": [
+            {
+              "niveau": 1,
+              "id": null,
+              "nom": "",
+              "description": "",
+              "mp": null,
+              "puissance": null
+            }
+          ]
+        },
+        "incarnation": {
+          "nom": "",
+          "type": "",
+          "categorie": "",
+          "incarnation": true,
+          "niveaux": [
+            {
+              "niveau": 1,
+              "id": null,
+              "nom": "",
+              "description": "",
+              "mp": null,
+              "puissance": null
+            }
+          ]
+        }
+      },
+      "label": "character.nouveau_999000002",
+      "genere": true,
+      "kit_propose": [
+        "Attaque supplémentaire",
+        "Bonus ATK (alliés)",
+        "Dégâts + : ennemi en dégâts continus",
+        "Dégâts continus",
+        "Rôle Charge"
+      ],
+      "parametres_generation": {
+        "graine": 0,
+        "contraintes_stats": {
+          "famille": "physique",
+          "ATK": {
+            "egal": 2800
+          },
+          "SPD": {
+            "pct_min": 80
+          }
+        },
+        "imposes_kit": [
+          "Dégâts continus"
+        ]
+      }
+    }
+  ]
+}
