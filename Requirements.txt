@@ -1,0 +1,14 @@
+# Analyse_Tools_SAOUB_perso : dépendances Python
+# Prérequis hors pip : Java 21 (PySpark) et Python 3.11 ou plus récent (testé avec 3.13).
+# Installation : pip install -r requirements.txt
+
+pyspark>=4.0,<5        # traitement des données (session Spark locale)
+pandas>=2.2,<3       # tables de travail, toPandas() (PySpark ne gère pas encore pandas 3)
+numpy>=1.26
+scipy>=1.11            # lois normales, distances, regroupement de Ward, corrélations
+matplotlib>=3.8        # graphiques
+seaborn>=0.13          # graphiques
+adjustText>=1.1        # étiquettes lisibles sur les graphiques
+
+# Pour ouvrir et exécuter les notebooks hors PyCharm
+jupyterlab>=4.0
