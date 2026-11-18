@@ -1,0 +1,454 @@
+{
+ "contraintes": [
+  {},
+  {
+   "ATK": {
+    "egal": 3000
+   },
+   "HP": {
+    "min": 7200,
+    "max": 7900
+   }
+  },
+  {
+   "famille": "magique",
+   "SPD": {
+    "pct_min": 80
+   }
+  }
+ ],
+ "imposes": [
+  [],
+  [
+   "Dégâts continus",
+   "Malus résistance magique"
+  ],
+  [
+   "Provocation"
+  ]
+ ],
+ "stats": [
+  [
+   [
+    7950,
+    249,
+    2275,
+    2950,
+    1530,
+    1575,
+    763,
+    339
+   ],
+   [
+    7200,
+    281,
+    2325,
+    2700,
+    1500,
+    1485,
+    746,
+    329
+   ],
+   [
+    7500,
+    257,
+    2675,
+    2400,
+    1500,
+    1395,
+    770,
+    328
+   ],
+   [
+    7275,
+    286,
+    2350,
+    3075,
+    1320,
+    1455,
+    741,
+    338
+   ],
+   [
+    8175,
+    262,
+    2525,
+    3050,
+    1545,
+    1620,
+    718,
+    335
+   ]
+  ],
+  [
+   [
+    7500,
+    281,
+    3000,
+    2900,
+    1305,
+    1350,
+    730,
+    335
+   ],
+   [
+    7500,
+    300,
+    3000,
+    2425,
+    1515,
+    1485,
+    817,
+    329
+   ],
+   [
+    7875,
+    291,
+    3000,
+    2500,
+    1410,
+    1500,
+    815,
+    330
+   ],
+   [
+    7725,
+    294,
+    3000,
+    2525,
+    1350,
+    1605,
+    791,
+    330
+   ],
+   [
+    7875,
+    274,
+    3000,
+    2225,
+    1695,
+    1485,
+    832,
+    330
+   ]
+  ],
+  [
+   [
+    7425,
+    276,
+    2275,
+    2950,
+    1500,
+    1620,
+    710,
+    339
+   ],
+   [
+    7875,
+    300,
+    2425,
+    2850,
+    1365,
+    1425,
+    653,
+    342
+   ],
+   [
+    7350,
+    249,
+    2275,
+    2800,
+    1485,
+    1545,
+    770,
+    339
+   ],
+   [
+    8175,
+    255,
+    2400,
+    2975,
+    1335,
+    1470,
+    731,
+    339
+   ],
+   [
+    8175,
+    260,
+    2400,
+    3050,
+    1305,
+    1515,
+    741,
+    342
+   ]
+  ]
+ ],
+ "kits": [
+  [
+   [
+    "Bonus ATK (soi-même)",
+    "Dégâts + : ennemi avec malus de résistance physique ou magique"
+   ],
+   [
+    "Malus résistance physique",
+    "Recollection Field +1",
+    "Rôle Charge"
+   ],
+   [
+    "Bonus ATK (alliés)",
+    "Bonus dégâts critiques (alliés)",
+    "Dégâts + : ennemi avec malus de résistance d'élément",
+    "Dégâts continus",
+    "Recollection Field +1",
+    "Rôle Break",
+    "Rôle Charge"
+   ],
+   [
+    "Malus ATK",
+    "Malus résistance magique",
+    "Rôle Charge",
+    "Rôle Mode enhance"
+   ],
+   [
+    "Dégâts + : ennemi en dégâts continus",
+    "Provocation"
+   ]
+  ],
+  [
+   [
+    "Attaque supplémentaire",
+    "Bonus ATK (alliés)",
+    "Charge de Volonté + : ennemi en dégâts continus",
+    "Dégâts continus",
+    "Malus résistance magique"
+   ],
+   [
+    "Dégâts continus",
+    "Malus résistance magique",
+    "Recollection Field +2"
+   ],
+   [
+    "Attaque supplémentaire",
+    "Dégâts continus",
+    "Malus résistance magique",
+    "Réduction du Break ennemi",
+    "Rôle Break"
+   ],
+   [
+    "Bonus résistance magique (alliés)",
+    "Dégâts + : ennemi en dégâts continus",
+    "Dégâts continus",
+    "Malus résistance magique",
+    "Rôle Break"
+   ],
+   [
+    "Dégâts continus",
+    "Malus MP selon l'élément",
+    "Malus résistance magique"
+   ]
+  ],
+  [
+   [
+    "Bonus ATK (alliés)",
+    "Bonus résistance physique (cible non précisée)",
+    "Provocation",
+    "Rôle Break"
+   ],
+   [
+    "Attaque supplémentaire",
+    "Bonus dégâts critiques (cible non précisée)",
+    "Dégâts + : lien de compétences",
+    "Malus ATK",
+    "Malus résistance physique",
+    "Provocation",
+    "Recollection Field +2",
+    "Rôle Break"
+   ],
+   [
+    "Bonus résistance physique (cible non précisée)",
+    "Malus MATK",
+    "Provocation",
+    "Rôle Charge"
+   ],
+   [
+    "Bonus ATK (soi-même)",
+    "Bonus résistance physique (cible non précisée)",
+    "Dégâts + : bonus d'ATK ou de critique atteint un seuil",
+    "Provocation",
+    "Rôle Charge"
+   ],
+   [
+    "Dégâts continus",
+    "Malus résistance physique",
+    "Provocation",
+    "Rôle Charge"
+   ]
+  ]
+ ],
+ "persos": [
+  {
+   "stats": {
+    "HP": 8250,
+    "MP": 249,
+    "ATK": 2800,
+    "MATK": 2425,
+    "DEF": 1590,
+    "MDEF": 1515,
+    "CRIT": 784,
+    "SPD": 339
+   },
+   "kit": [
+    "Attaque supplémentaire",
+    "Bonus ATK (alliés)",
+    "Dégâts + : ennemi en dégâts continus",
+    "Dégâts continus",
+    "Rôle Charge"
+   ]
+  },
+  {
+   "stats": {
+    "HP": 7800,
+    "MP": 253,
+    "ATK": 2800,
+    "MATK": 2425,
+    "DEF": 1635,
+    "MDEF": 1635,
+    "CRIT": 741,
+    "SPD": 342
+   },
+   "kit": [
+    "Attaque avec coût en HP",
+    "Attaque supplémentaire",
+    "Bonus ATK (alliés)",
+    "Bonus résistance physique (alliés)",
+    "Dégâts continus",
+    "Recollection Field +1",
+    "Rôle Break",
+    "Rôle Charge"
+   ]
+  },
+  {
+   "stats": {
+    "HP": 7350,
+    "MP": 271,
+    "ATK": 2800,
+    "MATK": 2325,
+    "DEF": 1500,
+    "MDEF": 1275,
+    "CRIT": 806,
+    "SPD": 342
+   },
+   "kit": [
+    "Dégâts + : ennemi en dégâts continus",
+    "Dégâts continus",
+    "Recollection Field +1",
+    "Rôle Charge",
+    "Rôle Mode enhance"
+   ]
+  },
+  {
+   "stats": {
+    "HP": 7275,
+    "MP": 279,
+    "ATK": 2800,
+    "MATK": 2200,
+    "DEF": 1575,
+    "MDEF": 1500,
+    "CRIT": 784,
+    "SPD": 339
+   },
+   "kit": [
+    "Charge de Volonté + : ennemi en dégâts continus",
+    "Dégâts + : ennemi en dégâts continus",
+    "Dégâts continus",
+    "Malus résistance magique",
+    "Malus résistance physique",
+    "Rôle Break"
+   ]
+  },
+  {
+   "stats": {
+    "HP": 7500,
+    "MP": 289,
+    "ATK": 2800,
+    "MATK": 2550,
+    "DEF": 1515,
+    "MDEF": 1455,
+    "CRIT": 715,
+    "SPD": 339
+   },
+   "kit": [
+    "Dégâts + : ennemi en dégâts continus",
+    "Dégâts continus",
+    "Recollection Field +1",
+    "Rôle Charge"
+   ]
+  }
+ ],
+ "a": [
+  0.8886174912543912,
+  0.8926932566542112,
+  0.8720119372162317,
+  0.8964889693814256,
+  0.9659241903985881,
+  0.9126873982464346,
+  1.0019657841823184,
+  1.007228370812418,
+  0.9588143069432961,
+  0.8290039305924767,
+  0.9918030980320005,
+  0.8394237565283261,
+  0.824856731791536,
+  0.912641166487225,
+  0.9278278121756429,
+  1.0191534491098888,
+  0.8847296733622042,
+  0.9844602431097158,
+  0.9038669619766467,
+  0.9679198340194711,
+  0.9826606409317115,
+  0.8805868706548773,
+  1.0974523787372028,
+  1.0380477845273643,
+  0.8792086070339522,
+  0.8088955076140678,
+  0.9264471182856214,
+  1.1902120678893717,
+  1.3182514523222224,
+  1.0707715752246436
+ ],
+ "groupes": [
+  "Attaque supplémentaire",
+  "Bonus ATK (alliés)",
+  "Bonus ATK (soi-même)",
+  "Bonus MATK (alliés)",
+  "Bonus MATK (soi-même)",
+  "Bonus dégâts critiques (alliés)",
+  "Bonus offensifs (rares)",
+  "Bonus résistance physique (alliés)",
+  "Bonus résistances (rares)",
+  "Break/Charge + (conditions rares)",
+  "Dégâts + (conditions rares)",
+  "Dégâts + : Recollection Field atteint un seuil",
+  "Dégâts + : bonus d'ATK ou de critique atteint un seuil",
+  "Dégâts + : ennemi avec malus de résistance physique ou magique",
+  "Dégâts + : ennemi en dégâts continus",
+  "Dégâts continus",
+  "Malus ATK",
+  "Malus résistance magique",
+  "Malus résistance physique",
+  "Multiplication Charge/Break (soi)",
+  "Rares : Autres mécaniques",
+  "Rares : Malus sur l'ennemi",
+  "Recollection Field +1",
+  "Recollection Field +2",
+  "Recollection Field spécial +3",
+  "Réduction de la Charge ennemie",
+  "Réduction du Break ennemi",
+  "Rôle Break",
+  "Rôle Charge",
+  "Rôle Mode enhance"
+ ]
+}

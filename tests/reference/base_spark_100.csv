@@ -1,0 +1,219 @@
+perso_id,nom_complet,element,arme,free,c1,c2,c3,HP,MP,ATK,MATK,DEF,MDEF,CRIT,SPD,famille,taille_kit
+130114001,[Les ténèbres qui enveloppent tout] Kirito,ténèbres,Épée,False,ASSAULT_FIELD,BREAK,BUFF_ALL,7500,276,2700,2550,1455,1395,701,319,physique,3
+130114002,[La rose qui fleurit jusqu'au bout] Eugeo,eau,Épée,False,CHARGE_FIELD,ASSAULT,HEAL,7875,278,2575,2500,1365,1380,681,318,physique,2
+130114003,[L'éveil du héros] Kirito,aucun,Épée,True,CHARGE,BREAK,ASSAULT,5637,221,2246,1913,1188,1225,723,304,physique,0
+130114004,[Le regard amoureux] Kirito,aucun,Épée,False,CHARGE_FIELD,ASSAULT,BUFF_ALL,7650,269,2650,2450,1485,1395,718,321,physique,1
+130114005,[Le sens de la force] Kirito,aucun,Épée,False,CHARGE,ASSAULT,BUFF_ALL,7725,286,2563,2250,1358,1373,722,330,physique,1
+130114006,[Torrent de techniques] Kirito,eau,Épée,False,BREAK,ASSAULT,ASSAULT,6750,242,2838,2313,1403,1598,811,327,physique,3
+130114007,[Le chevalier ailé] Renly,vent,Épée,False,BREAK_FIELD,ASSAULT,BUFF,8310,253,2430,2380,1593,1512,670,339,physique,3
+130114008,[Le nouveau vent rapide] Kirito,vent,Épée,True,HEAL_ALL,ASSAULT,BUFF,6646,211,1968,1980,1351,1400,597,301,magique,1
+130114009,[Vent du champ glacé] Eugeo,vent,Épée,False,BREAK,ASSAULT,ASSAULT,6960,271,2870,2733,1409,1349,738,327,physique,3
+130114010,[Un sourire rafraîchissant] Eugeo,vent,Épée,False,CHARGE,ASSAULT,DEBUFF,8513,231,2838,2175,1491,1322,757,336,physique,6
+130114011,[Les liens qui vivent par l'épée] Kirito,aucun,Épée,False,CHARGE,ASSAULT,ENHANCE_MODE,7688,289,2905,2275,1410,1380,749,329,physique,3
+130114012,[La mémoire de la Rose Bleue] Eugeo,aucun,Épée,False,BREAK,ASSAULT,ENHANCE_MODE,7538,294,2755,2250,1470,1425,763,326,physique,2
+130114013,[L'épéiste de glace éternelle] Eugeo,eau,Épée,False,CHARGE,ASSAULT,ASSAULT_FIELD,7313,268,2875,2450,1425,1395,743,327,physique,7
+130114014,[Un autre héros] Eugeo,aucun,Épée,False,CHARGE,ASSAULT,BUFF_FIELD,8175,264,2925,2250,1620,1290,715,332,physique,6
+130114015,[Rêve étoilé] Eugeo,aucun,Épée,True,CHARGE,ASSAULT,HEAL_ALL,6314,253,2115,2149,1110,1158,616,312,magique,3
+130114016,[Ce que je veux te dire] Renly,aucun,Épée,False,CHARGE,ASSAULT,BREAK_FIELD,7725,234,2938,2250,1575,1575,791,335,physique,5
+130114017,[Le silence du clair de lune] Eugeo,vent,Épée,False,BREAK,ASSAULT,ENHANCE_MODE,7950,284,2950,2250,1530,1545,701,332,physique,4
+130114018,[Attends un peu !] Kibaou,lumière,Épée,True,BREAK,ASSAULT,BUFF,8157,218,2518,1813,1424,1207,638,329,physique,5
+130114019,[Bêta-testeur] Kirito,feu,Épée,False,CHARGE,ASSAULT,ENHANCE_MODE,8288,294,2800,2725,1515,1515,688,324,physique,5
+130114020,[Le Chevalier de l’Intégrité de glace] Eugeo,lumière,Épée,False,BREAK_FIELD,ASSAULT,ASSAULT,8850,263,3125,2250,1575,1545,756,334,physique,6
+130114021,"[Jeu, set, hanetsuki !] Eugeo",ténèbres,Épée,False,CHARGE,ASSAULT,BUFF_FIELD,7950,289,2375,3150,1560,1545,694,337,magique,7
+130114022,[Le représentant-épéiste du temps] Kirito,lumière,Épée,False,BREAK,ASSAULT,BUFF_FIELD,8475,273,2450,3175,1530,1575,701,332,magique,4
+130114023,[Ce que je doit protéger] Kirito,feu,Épée,False,BREAK,ASSAULT,ENHANCE_MODE,8400,277,3113,2450,1650,1650,791,334,physique,4
+130124001,[Le Chevalier d'Osmanthe] Alice,terre,Épée,False,ASSAULT_FIELD,BREAK,BUFF_ALL,7425,263,2775,2575,1380,1470,708,316,physique,3
+130124002,[La majestueuse épéiste magique] Leafa,vent,Épée,False,HEAL_ALL,ASSAULT_FIELD,BUFF,6900,289,2600,2575,1358,1350,715,335,physique,1
+130124003,[Le Chevalier déterminé] Alice,aucun,Épée,True,ASSAULT,BREAK,BUFF,6948,214,1853,1903,1327,1086,670,304,magique,2
+130124004,[Noblesse admirable] Soltirina,eau,Épée,False,ASSAULT_FIELD,BREAK,HEAL,7875,255,2650,2350,1515,1395,715,322,physique,1
+130124005,[Le Chevalier des abîmes] Eydis,ténèbres,Épée,False,HEAL_ALL,ASSAULT,BUFF,7125,276,2663,2500,1245,1245,804,338,physique,0
+130124006,[Rêve du pays natal] Alice,vent,Épée,False,BREAK,ASSAULT,BUFF_ALL,8400,244,2363,2300,1650,1350,708,319,physique,3
+130124007,[Je t'attendrai dans les cieux] Eydis,ténèbres,Épée,False,ASSAULT_FIELD,BREAK,ASSAULT,8025,260,2425,2575,1440,1478,722,321,magique,3
+130124008,[Dans tes bras au soleil] Alice,terre,Épée,False,CHARGE,ASSAULT,BUFF_ALL,7575,280,2413,2788,1478,1463,677,324,magique,2
+130124009,[Aurore au pays des fées] Leafa,feu,Épée,True,HEAL_ALL,ASSAULT,BUFF_ALL,6296,242,2038,1837,1245,1112,633,315,physique,2
+130124010,[Une cérémonie du thé splendide] Soltirina,lumière,Épée,True,HEAL_ALL,ASSAULT,BUFF_ALL,6682,224,1933,1853,1327,1279,590,315,physique,2
+130124011,[smile for you] YUNA,ténèbres,Épée,False,CHARGE,ASSAULT,BUFF_ALL,6788,272,2688,2200,1599,1388,716,318,physique,3
+130124012,[Le Chevalier de l'amour] Dakira,feu,Épée,False,BREAK_FIELD,ASSAULT,HEAL,8438,249,2675,2425,1470,1455,660,326,physique,6
+130124013,[Le chevalier silencieux] Scheta,ténèbres,Épée,False,BREAK,ASSAULT,BUFF,7110,271,2860,2355,1392,1392,738,327,physique,5
+130124015,[La prêtresse de lumière] Alice,lumière,Épée,False,BREAK,ASSAULT,DEBUFF,8213,263,2345,2873,1358,1283,705,339,magique,6
+130124016,[La déesse-mère de la Terre] Leafa,lumière,Épée,False,CHARGE,ASSAULT,BUFF,8258,260,2725,2205,1433,1260,749,332,physique,3
+130124017,[Ce qu'on voit au bout du combat] Scheta,feu,Rapière,False,HEAL_ALL,ASSAULT,BUFF,7748,271,2758,2583,1400,1451,662,338,physique,4
+130124018,[L'éclat du sabre] Suguha,aucun,Épée,False,BREAK,ASSAULT,ASSAULT,7950,262,2625,2323,1515,1379,709,339,physique,3
+130124019,[Danser dans le brouillard] Eydis,eau,Épée,False,CHARGE,ASSAULT,ENHANCE_MODE,7575,276,2325,2885,1530,1470,681,335,magique,2
+130124020,[En écoutant le murmure de l'eau] Alice,eau,Épée,False,BREAK,ASSAULT,ENHANCE_MODE,7650,276,2275,2895,1425,1485,701,332,magique,2
+130124021,[La déesse de la Terre courant dans la forêt] Leafa,terre,Épée,False,CHARGE,ASSAULT,ENHANCE_MODE,8100,289,2625,2300,1530,1530,674,307,physique,1
+130124022,[Promenade aquatique] Asuna,terre,Épée,False,BREAK,ASSAULT,ENHANCE_MODE,7388,272,2350,2775,1470,1508,801,335,magique,2
+130124023,[Sans souci sur les flots] Lisbeth,terre,Épée,False,CHARGE,ASSAULT,ENHANCE_MODE,7313,276,2455,2750,1350,1410,770,332,magique,2
+130124024,[Le moment de se lever] Alice,lumière,Épée,False,CHARGE,ASSAULT,ENHANCE_MODE,7613,289,2905,2175,1500,1380,749,329,physique,4
+130124026,[Le temps des secrets entre filles] Leafa,vent,Épée,True,BREAK,ASSAULT,ENHANCE_MODE,6405,176,1742,2215,1249,1243,734,325,magique,1
+130124027,"[Pour toi, mon cher] Sachi",lumière,Épée,True,BREAK,ASSAULT,ASSAULT,8205,234,2443,2458,1680,1740,643,307,magique,1
+130124028,[Une sensation de chaleur ravissante] Alice,feu,Épée,False,CHARGE,ASSAULT,ASSAULT_FIELD,7740,272,2363,2863,1613,1493,684,319,magique,4
+130124029,[Une tendresse débordante] Eydis,feu,Épée,False,BREAK,ASSAULT,ENHANCE_MODE,6975,276,2300,2910,1545,1470,753,326,magique,4
+130124030,[Un autre chemin] Alice,lumière,Épée,True,CHARGE,ASSAULT_FIELD,ASSAULT,5800,244,1813,2175,1231,1243,606,317,magique,1
+130124031,"[Lumière de la lame, ombre de l'épée] Eydis",lumière,Épée,False,CHARGE,ASSAULT,HEAL_FIELD,7313,280,2938,2538,1530,1500,681,332,physique,4
+130124032,[Le chevalier inébranlable] Alice,aucun,Épée,False,BREAK,ASSAULT,BUFF_FIELD,7650,270,2945,2275,1448,1388,746,329,physique,4
+130124033,[L'amitié née de la terre] Leafa,ténèbres,Épée,False,HEAL_ALL,ASSAULT,BUFF,7875,244,2388,2913,1515,1628,698,337,magique,2
+130124034,[Une technique sans égale] Soltirina,terre,Épée,True,BREAK,ASSAULT,CHARGE,5891,228,2175,2175,1146,1122,651,321,physique,1
+130124035,"[Ce jour-là, au pied de l'osmanthe] Eydis",vent,Épée,False,BREAK,ASSAULT,ENHANCE_MODE,7575,274,2950,2350,1440,1410,787,329,physique,1
+130124036,[La fleur et le réveil de l'épéiste] Leafa,lumière,Épée,False,CHARGE,ASSAULT_HEAL,BUFF_FIELD,7463,284,2913,2375,1410,1350,727,334,physique,4
+130124037,[S'échapper de soirée] Alice,lumière,Épée,False,BREAK,ASSAULT,ENHANCE_MODE,7800,276,2938,2250,1515,1575,688,333,physique,3
+130124038,[Sueur d'un après-midi étincelant] Eydis,eau,Épée,False,BREAK,ASSAULT,BUFF,7725,268,2900,2325,1530,1470,756,326,physique,3
+130124039,[Dans le ciel d'un monde lointain] Alice,eau,Épée,False,CHARGE_FIELD,ASSAULT,ASSAULT,8400,265,3050,2250,1530,1485,688,335,physique,5
+130124040,[Dépasser l'horizon] Leafa,terre,Épée,False,CHARGE,ASSAULT,ENHANCE_MODE,8175,278,3000,2250,1515,1575,688,327,physique,4
+130124041,[La chasseuse de trésor blonde] Philia,vent,Épée,False,BREAK,ASSAULT,HEAL_FIELD,7800,276,2938,2250,1515,1575,688,333,physique,7
+130124042,[La mémoire des abîmes] Eydis,ténèbres,Épée,False,BREAK_FIELD,ASSAULT,ENHANCE_MODE,8400,284,2875,2150,1545,1530,729,329,physique,5
+130124043,[Répandre la fleur de vie] Leafa,eau,Épée,False,HEAL_FIELD,ASSAULT,BUFF_FIELD,7575,258,2948,2620,1430,1538,716,330,physique,3
+130124044,[La vie de demain] Alice,feu,Épée,False,CHARGE,ASSAULT,ASSAULT,8123,273,2563,2950,1440,1530,763,332,magique,4
+130124045,[Panique dans la piscine] Suguha,lumière,Épée,True,CHARGE,ASSAULT,ENHANCE_MODE,7553,256,2417,2840,1327,1303,651,329,magique,2
+130124046,[Flottant dans l'eau du lac] Alice,vent,Épée,False,BREAK,ASSAULT,ENHANCE_MODE,7800,289,2250,2975,1515,1560,756,326,magique,5
+130124047,[Jeux d'eau] Leafa,vent,Épée,False,CHARGE,ASSAULT,ENHANCE_MODE,7943,286,2525,3025,1470,1620,685,329,magique,5
+130124048,[Le ciel reflété sur l'eau] Eydis,vent,Épée,False,CHARGE,ASSAULT,BUFF,8025,284,2300,2950,1545,1575,722,329,magique,3
+130124049,[Au soleil] Soltirina,lumière,Épée,False,BREAK,ASSAULT_FIELD,ENHANCE_MODE,7650,291,2225,3000,1560,1575,715,335,magique,3
+130124050,[Souvenirs d'autrefois] Alice,feu,Épée,False,BREAK,ASSAULT,ENHANCE_MODE,8025,278,3000,2250,1515,1575,688,327,physique,5
+130124051,[La voix qui résonne dans le cœur] Eydis,eau,Épée,False,BREAK,ASSAULT,CHARGE,7950,289,2925,2300,1575,1470,688,324,physique,6
+130124052,[La déesse des abîmes] Eydis,ténèbres,Épée,False,CHARGE,ASSAULT,ENHANCE_MODE,8925,284,3075,2400,1583,1512,688,334,physique,4
+130124053,[Fais de beaux rêves] Alice,eau,Épée,False,CHARGE_HEAL,ASSAULT_HEAL,HEAL_FIELD,7988,289,3030,2175,1530,1380,749,338,physique,3
+130124054,[Viser toujours plus haut] Leafa,terre,Épée,True,CHARGE,ASSAULT,BUFF_FIELD,7371,242,2860,2316,1327,1303,676,329,physique,4
+130124055,[L'investigatrice des abîmes] Eydis,ténèbres,Épée,False,CHARGE,ASSAULT,ASSAULT,8025,284,3050,2250,1590,1575,688,332,physique,3
+130124056,[Le chevalier surdoué] Alice,ténèbres,Épée,False,BREAK,ASSAULT,ASSAULT,8250,286,3100,2200,1575,1590,756,329,physique,3
+130124057,[Le bonheur est dans l'assiette] Eydis,aucun,Épée,False,CHARGE,ASSAULT,ASSAULT_FIELD,8250,273,2250,3125,1530,1575,722,338,magique,4
+130124058,[Le levant éclairant les neiges de l'An] Alice,aucun,Épée,False,BREAK_HEAL,ASSAULT_HEAL,BUFF_FIELD,8400,273,2300,3075,1545,1620,701,335,magique,4
+130124061,[Sur un rythme joyeux et entraînant] Leafa,feu,Épée,False,CHARGE,ASSAULT,ENHANCE_MODE,8100,289,2250,3113,1560,1605,722,338,magique,2
+130124063,[Enveloppée d'un doux parfum] Eydis,terre,Épée,False,BREAK,ASSAULT,ENHANCE_MODE,8100,291,2300,2975,1560,1560,701,342,magique,3
+130124064,[Un beau rêve en retour] Alice,terre,Épée,False,CHARGE_HEAL,ASSAULT_HEAL,BUFF_FIELD,8175,286,2250,3100,1575,1575,729,340,magique,3
+130124065,[Un vœu aux couleurs fleuries] Alice,terre,Épée,False,BREAK,ASSAULT,BREAK_FIELD,8400,278,3000,2525,1575,1575,743,337,physique,4
+130124066,[Le Chevalier gardien du point du jour] Eydis,vent,Épée,False,BREAK,ASSAULT,ENHANCE_MODE,7950,281,2475,3050,1575,1560,743,329,magique,4
+130124067,[Une grande fleur flottant une nuit d'été] Leafa,aucun,Épée,False,CHARGE,ASSAULT,CHARGE,8475,273,2425,3150,1500,1545,701,327,magique,4
+130124068,[La mage du monde des fées] Leafa,lumière,Épée,False,CHARGE,ASSAULT,ENHANCE_MODE,8400,284,2200,3125,1605,1605,791,329,magique,5
+130124069,[Un Chevalier des Ténèbres prometteur] Sylvie,ténèbres,Épée,False,BREAK,ASSAULT,BUFF_FIELD,8700,281,3150,2350,1590,1590,756,338,physique,5
+130124070,[Gare aux rues étranges la nuit] Eydis,terre,Épée,False,CHARGE,ASSAULT,ENHANCE_MODE,8250,297,2525,3075,1560,1560,756,338,magique,5
+130124071,[Master of Darkness] Eydis,aucun,Épée,False,BREAK,ASSAULT,ASSAULT_HEAL,8400,289,3150,2500,1665,1665,866,342,physique,0
+130134003,[Le Chevalier des Roseraies] Eldrie,eau,Épée,False,CHARGE_FIELD,ASSAULT,ASSAULT,7200,289,2600,2400,1530,1433,756,306,physique,1
+130134004,[L'ange de la mort] Subtilizer,ténèbres,Épée,False,BREAK_FIELD,ASSAULT,ENHANCE_MODE,8100,284,2275,2853,1545,1380,694,326,magique,4
+130134005,[La lumière de confiance] Klein,feu,Épée,True,BREAK,ASSAULT,HEAL,7704,218,2195,1893,1303,1303,644,323,physique,4
+130134006,[Le lancier vert] Nergius,vent,Épée,False,CHARGE,ASSAULT,BREAK,8250,266,2915,2375,1560,1560,715,329,physique,5
+130134007,[Le Chevalier aux bras de fer] Entokia,aucun,Épée,False,BREAK,ASSAULT,BUFF,9375,223,2900,2125,2025,1500,694,326,physique,6
+130134008,[Fête traditionnelle du Nouvel An !] Klein,ténèbres,Épée,False,BREAK,ASSAULT,ENHANCE_MODE,8400,284,2250,3000,1410,1530,715,338,magique,1
+130144001,[Pour laisser une trace] Yuuki,ténèbres,Épée,False,CHARGE,ASSAULT_FIELD,HEAL,7125,270,2550,2375,1395,1425,791,335,physique,2
+130144002,[Détermination ardente] Tizée,feu,Épée,False,CHARGE,ASSAULT,BUFF_ALL,6750,281,2425,2575,1470,1530,749,310,magique,2
+130144003,[Le bourgeon de la justice] Lonie,lumière,Épée,False,HEAL_ALL,ASSAULT,BUFF,6750,284,2500,2725,1410,1320,708,332,magique,2
+130144004,[Un dévouement précieux] Lonie,feu,Épée,False,CHARGE,ASSAULT_FIELD,BUFF_ALL,7425,276,2400,2650,1395,1425,715,326,magique,3
+130144005,[La jeune fille qui aime les fleurs] Lonie,terre,Rapière,False,BREAK_HEAL,ASSAULT,BUFF_ALL,7594,263,2281,2656,1474,1534,710,339,magique,1
+130144006,[Avec mes amis] Yuuki,ténèbres,Épée,False,BREAK,ASSAULT,DEBUFF,7275,265,2865,2285,1419,1431,746,340,physique,5
+130144007,[Des gouttes d'eau sur la peau] Tizée,eau,Épée,False,CHARGE,ASSAULT,ENHANCE_MODE,7200,281,2425,2763,1455,1500,787,316,magique,2
+130144008,[La Volonté au combat] Medina,feu,Épée,True,CHARGE,BREAK,ASSAULT,5879,223,2296,1833,1152,1188,704,307,physique,3
+130144009,[Trick or Party] Yuuki,lumière,Épée,False,HEAL_FIELD,ASSAULT,BUFF,7050,292,2350,2900,1365,1320,730,334,magique,3
+130144010,[Un futur qui s'échappe] Lonie,feu,Épée,False,HEAL_FIELD,ASSAULT,BUFF,7425,276,2788,2475,1395,1425,715,326,physique,4
+130144011,[Tu es le parfum du soleil] Yuuki,feu,Épée,False,CHARGE,ASSAULT_ROTATION,ASSAULT,7425,269,2913,2375,1410,1440,763,335,physique,4
+130144012,[Je continuerai de chanter] YUNA,aucun,Épée,False,CHARGE_FIELD_HEAL,ASSAULT_HEAL,CHARGE,7088,280,2880,2275,1569,1463,737,327,physique,3
+130144013,[Un moment rien que toi et moi] Yuuki,ténèbres,Épée,False,CHARGE,ASSAULT_FIELD,BREAK_FIELD,7763,279,2958,2250,1523,1575,681,333,physique,3
+130144014,[Séduisantes vapeurs] Lonie,terre,Épée,False,BREAK,ASSAULT,ENHANCE_MODE,7875,276,2175,2975,1620,1605,743,329,magique,2
+130144015,[Les bêtises du petit démon] Lonie,vent,Épée,False,HEAL_ALL,ASSAULT,BUFF_FIELD,7800,273,3025,2775,1575,1575,756,338,physique,5
+130144016,[Let's enjoy the game] Anna Mochizuki,ténèbres,Épée,True,CHARGE,ASSAULT,ASSAULT_FIELD,7855,256,2860,2054,1472,1496,606,329,physique,3
+130144017,[La rêveuse qui a le vent en poupe] Yuriko Nanao,vent,Épée,False,BREAK,ASSAULT,ENHANCE_MODE,8100,284,3000,2300,1530,1560,743,332,physique,4
+130144019,[L'héroïne légendaire] Yuuki,aucun,Épée,False,BREAK,ASSAULT,ENHANCE_MODE,8550,268,3000,2250,1725,1725,694,338,physique,5
+130144020,[Chevalier de l’Intégrité du Clair de Lune] Lonie,vent,Épée,False,CHARGE,ASSAULT,ENHANCE_MODE,8625,284,3025,2575,1530,1530,722,340,physique,4
+130144021,[Splendide Zekken] Yuuki,lumière,Épée,False,CHARGE,ASSAULT,ENHANCE_MODE,8700,281,3175,2325,1560,1545,756,338,physique,1
+130144022,[Sparkling Sunshine Girl] Yuuki,aucun,Épée,True,CHARGE,ASSAULT,HEAL_FIELD,7432,256,2417,2880,1303,1327,651,329,magique,5
+130164006,[L'attaque tranchante au-delà du temps] Bercouli,aucun,Épée,False,CHARGE,ASSAULT,BUFF,8738,230,2880,2195,1503,1317,758,319,physique,4
+130214001,[Une puissance éveillée] Kirito,ténèbres,Lames doubles,False,CHARGE,ASSAULT,ASSAULT_FIELD,7688,284,2850,2275,1410,1380,749,322,physique,4
+130214002,[L'étoile scintillante du ciel nocturne] Kirito,lumière,Lames doubles,False,BREAK,ASSAULT,BUFF_FIELD,7988,249,2878,2325,1491,1337,764,336,physique,4
+130214003,[Un nouveau prélude] Kirito,terre,Lames doubles,False,CHARGE,ASSAULT,ASSAULT,7650,268,2925,2450,1425,1395,756,327,physique,4
+130214004,[Chevalier de l'Intégrité à l'épée noire] Kirito,feu,Lames doubles,False,BREAK,ASSAULT,ENHANCE_MODE,7650,276,2975,2400,1425,1395,756,327,physique,4
+130214005,[Attaque tranchante en croix] Kirito,aucun,Lames doubles,False,BREAK,ASSAULT,ENHANCE_MODE,7725,278,2925,2325,1491,1395,722,332,physique,3
+130214006,[L'affrontement final - Exaucer vos prières] Kirito,vent,Lames doubles,False,CHARGE,ASSAULT,ENHANCE_MODE,7875,282,2935,2275,1455,1350,753,327,physique,3
+130214007,[Nouvelle ère] Kirito,feu,Lames doubles,False,CHARGE_FIELD,ASSAULT,BUFF,8213,278,2400,2900,1515,1575,688,338,magique,6
+130214008,[Le regard au loin] Kirito,ténèbres,Lames doubles,False,CHARGE,ASSAULT,BUFF,7725,276,2938,2550,1545,1500,763,321,physique,3
+130214009,[Le protecteur des liens] Kirito,lumière,Lames doubles,False,BREAK,ASSAULT,ASSAULT,8475,273,3250,2375,1530,1575,701,332,physique,3
+130214010,[L'insolent roi-démon] Kirito,eau,Lames doubles,False,BREAK,ASSAULT,CHARGE,8550,265,3188,2225,1583,1583,777,335,physique,3
+130214011,[Magical Stream] Kirito,lumière,Lames doubles,True,CHARGE,ASSAULT,CHARGE_FIELD,7166,251,1933,2920,1375,1424,590,334,magique,4
+130214012,[The World Where I Fought for My Life] Kirito,aucun,Lames doubles,False,CHARGE,ASSAULT,ASSAULT_FIELD,8625,276,3100,2500,1665,1665,811,342,physique,0
+130224001,[Le moment du crépuscule] Rain,terre,Lames doubles,False,CHARGE,ASSAULT,HEAL_FIELD,7313,268,2875,2450,1425,1395,743,339,physique,5
+130324001,[L’éclair intense] Asuna,aucun,Rapière,False,CHARGE_FIELD,ASSAULT,BUFF_ALL,6750,276,2500,2425,1493,1500,804,332,physique,2
+130324002,[L'espoir envoyé des étoiles] Asuna,lumière,Rapière,False,BREAK,ASSAULT,HEAL_ALL,7500,276,2425,2750,1425,1425,674,319,magique,2
+130324003,[Le Chevalier du soleil ardent] Fanatio,lumière,Rapière,False,CHARGE,ASSAULT_FIELD,ASSAULT,6938,268,2800,2375,1433,1433,784,319,physique,4
+130324004,[Le repos de la déesse] Asuna,vent,Rapière,False,CHARGE,ASSAULT_FIELD,HEAL,6900,276,2425,2500,1493,1500,784,326,magique,2
+130324005,[Le sourire timide de l'amour] Asuna,aucun,Rapière,False,HEAL_ALL,ASSAULT,BUFF,6975,270,2450,2550,1485,1538,736,332,magique,1
+130324007,[L'éclair transperçant] Asuna,ténèbres,Rapière,False,BREAK,ASSAULT,BUFF,7013,255,2750,2263,1508,1358,764,339,physique,2
+130324008,[Courant lumineux de guérison] Asuna,eau,Rapière,False,HEAL_ALL,ASSAULT,BUFF,7110,271,2355,2800,1362,1632,704,334,magique,3
+130324009,[Un piège exquis] Administrator,lumière,Rapière,False,BREAK,ASSAULT,BUFF,7613,243,2863,2300,1500,1373,773,335,physique,5
+130324010,[La déesse de la genèse descendue du ciel] Asuna,terre,Rapière,False,CHARGE,ASSAULT,HEAL_ALL,6919,258,2306,2881,1369,1564,806,322,magique,4
+130324011,[Pense à moi] Asuna,ténèbres,Rapière,False,CHARGE,ASSAULT,DEBUFF,7350,276,2450,2875,1449,1536,657,340,magique,6
+130324012,[Le monde que je dois chérir] Administrator,feu,Rapière,False,CHARGE,ASSAULT,ENHANCE_MODE,7800,292,2900,2275,1410,1365,745,325,physique,4
+130324013,[Le souffle de vie que je veux protéger] Asuna,eau,Rapière,False,CHARGE,ASSAULT,ENHANCE_MODE,6900,291,2733,2493,1425,1380,794,334,physique,2
+130324014,[Vers la ligne de front] Asuna,vent,Rapière,False,CHARGE,ASSAULT,ASSAULT_FIELD,7200,263,2750,2375,1515,1545,756,339,physique,5
+130324015,[La belle étoile filante] Asuna,lumière,Rapière,False,CHARGE,ASSAULT,BREAK_FIELD,7575,268,3013,2450,1380,1440,715,329,physique,6
+130324016,[Ardente étincelle] Asuna,feu,Rapière,True,CHARGE,BREAK,ASSAULT,5982,230,2115,1873,1255,1231,746,306,physique,0
+130324017,[Beauté éternelle] Administrator,vent,Rapière,False,CHARGE_FIELD,ASSAULT,ENHANCE_MODE,7275,278,2350,2975,1470,1620,685,329,magique,2
+130324018,[Avec toi pour toujours] Asuna,terre,Rapière,False,HEAL_ALL,ASSAULT_FIELD,BUFF,7200,276,2850,2750,1470,1470,701,338,physique,3
+130324019,[L'amour est un labyrinthe] Asuna,aucun,Rapière,False,HEAL_ALL,ASSAULT,BUFF_FIELD,7125,268,2750,2688,1493,1500,701,332,physique,2
+130324020,[La Reine prisonnière] Asuna,ténèbres,Rapière,False,CHARGE,ASSAULT,ENHANCE_MODE,7455,300,2300,2940,1443,1538,667,337,magique,4
+130324021,[Faire confiance] Scheta,terre,Rapière,True,BREAK,ASSAULT_FIELD,ASSAULT,6163,233,2095,1974,1126,1167,670,332,physique,3
+130324022,[Avec ce monde] Asuna,feu,Rapière,False,BREAK,ASSAULT,ENHANCE_MODE,8025,284,2325,3000,1515,1530,743,326,magique,4
+130324023,[Main dans la main avec toi] Asuna,ténèbres,Rapière,False,CHARGE_HEAL,ASSAULT_HEAL,ASSAULT_FIELD,7575,273,2938,2700,1530,1512,794,324,physique,4
+130324024,[Déguster cette vie délicieuse] Dii Ai El,eau,Rapière,False,BREAK,ASSAULT,ENHANCE_MODE,7875,289,2300,2950,1485,1545,688,328,magique,4
+130324025,[Un caprice fantaisiste] Administrator,aucun,Rapière,False,CHARGE,ASSAULT,HEAL_FIELD,7575,284,2975,2325,1560,1380,701,338,physique,6
+130324026,[Fais briller ma main] Administrator,feu,Rapière,False,CHARGE,ASSAULT,ASSAULT_FIELD,8138,278,2988,2513,1530,1512,712,328,physique,5
+130324027,[Un matin sur le front] Asuna,ténèbres,Rapière,False,BREAK,ASSAULT,ASSAULT,7650,273,2913,2250,1568,1568,694,340,physique,6
+130324028,[Vers un avenir à trois] Scheta,aucun,Rapière,False,BREAK,ASSAULT,ENHANCE_MODE,8025,289,2950,2250,1560,1560,756,327,physique,3
+130324029,[Aria d'une nuit sans étoiles] Asuna,feu,Rapière,False,BREAK,ASSAULT,ENHANCE_MODE,8250,289,3000,2275,1545,1500,749,327,physique,4
+130324030,[Joueuse de SAO] Mito,feu,Rapière,False,CHARGE,ASSAULT,BUFF_FIELD,8745,278,3075,2475,1575,1515,688,334,physique,5
+130324031,[L'éclat qui tisse les liens] Asuna,lumière,Rapière,False,CHARGE,ASSAULT,ASSAULT,8625,273,3075,2350,1560,1560,722,335,physique,3
+130324032,"[Sous le ciel neigeux, les souvenirs] Administrator",terre,Rapière,False,BREAK,ASSAULT,BUFF,9525,234,3025,2175,1800,1635,688,332,physique,4
+130324033,[Cheerful Music] Asuna,vent,Rapière,False,CHARGE,ASSAULT,HEAL_FIELD,8250,273,2250,2975,1575,1635,715,335,magique,5
+130324034,[La belle princesse sylphe] Asuna,aucun,Rapière,False,CHARGE,ASSAULT,ASSAULT_FIELD_HEAL,8325,276,2950,2625,1515,1650,756,342,physique,4
+130324035,[Un pont vers une nouvelle ère] Asuna,terre,Rapière,False,CHARGE,ASSAULT,CHARGE,8325,270,3125,2350,1560,1560,722,342,physique,2
+130324036,[La fée aquatique du rivage] Asuna,ténèbres,Rapière,False,CHARGE_FIELD,ASSAULT,ENHANCE_MODE,8250,276,2450,3150,1590,1575,756,329,magique,5
+130324037,[La voie à suivre ensemble] Asuna,feu,Rapière,False,CHARGE,ASSAULT,ENHANCE_MODE,8100,289,2950,2350,1620,1620,811,342,physique,5
+130324038,[Hidden Resolve] Mito,eau,Rapière,False,CHARGE_FIELD,ASSAULT,ENHANCE_MODE,8250,268,3000,2300,1590,1590,825,335,physique,0
+130344001,[Un avant-goût de l'amour] Tizée,feu,Rapière,False,BREAK,ASSAULT,HEAL_ALL,7800,268,2450,2775,1320,1350,701,330,magique,2
+130344002,[Travailler à ses côtés] Tizée,lumière,Épée,False,CHARGE,ASSAULT,ASSAULT,8419,263,2431,2681,1474,1459,662,323,magique,3
+130344003,[Les griffes scintillantes] Argo,terre,Rapière,True,BREAK,ASSAULT,HEAL_ALL,5831,243,2225,1823,1261,1140,606,332,physique,1
+130344005,[Un amour frémissant] Tizée,vent,Rapière,False,BREAK,ASSAULT,DEBUFF,6758,265,2193,2863,1311,1457,832,336,magique,6
+130344006,[Un sourire au milieu des bulles] Lonie,eau,Rapière,False,BREAK,ASSAULT,ENHANCE_MODE,7500,276,2400,2788,1440,1493,722,326,magique,3
+130344007,[La Belle de la fête de la récolte] Tizée,aucun,Rapière,True,BREAK,ASSAULT,ASSAULT,5982,244,2074,1941,1182,1231,655,304,physique,1
+130344008,[Tel le souffle du vent] La responsable de l'ascenseur,vent,Rapière,True,HEAL_ALL,ASSAULT_FIELD,BUFF,6525,228,1853,2054,1182,1182,651,321,magique,2
+130344009,[Atteindre cette force] Tizée,aucun,Rapière,False,CHARGE,ASSAULT_FIELD,BREAK,7500,263,2925,2275,1605,1290,773,332,physique,6
+130344010,[Voulez-vous danser avec moi ?] Tizée,aucun,Rapière,True,BREAK,ASSAULT,ENHANCE_MODE,7553,244,2840,2417,1327,1303,689,329,physique,4
+130344011,[Bain de minuit] Tizée,terre,Rapière,False,CHARGE,ASSAULT,ASSAULT_FIELD_HEAL,8025,257,2225,2875,1605,1620,770,332,magique,4
+130344012,[Le rêve d'une jeune épéiste] Yui,eau,Rapière,True,BREAK,ASSAULT,BREAK,7492,251,2820,2377,1327,1303,689,342,physique,3
+130454001,[Le style Serult d'une enfant] Soltirina,eau,Dague,True,CHARGE,ASSAULT,HEAL,5438,249,2014,1893,1134,1207,632,310,physique,0
+130454002,[Un souvenir d'enfance] Alice,lumière,Dague,True,ASSAULT,BREAK,HEAL_ALL,5740,249,1813,2215,1146,1267,606,329,magique,0
+130454003,[L'éclat illuminant la terre] Linel,terre,Dague,False,HEAL_ALL,ASSAULT_FIELD,BUFF,8100,236,2500,2700,1350,1620,708,338,magique,2
+130454004,[Les fleurs brillant sur la terre] Fizel,terre,Dague,False,CHARGE,ASSAULT_FIELD,DEBUFF,7575,263,2625,2300,1515,1515,710,339,physique,4
+130454005,[Le style qui me ressemble] Selka,vent,Dague,True,CHARGE,ASSAULT,BUFF_ALL,5317,240,1732,2175,1219,1122,676,307,magique,1
+130454006,[Le berceau du tumulte des flots] Silica,eau,Dague,False,CHARGE,ASSAULT_HEAL,ASSAULT,7088,284,2475,2800,1500,1530,722,319,magique,2
+130454007,[La jeune fille du matin brumeux] Yui,aucun,Dague,True,CHARGE,ASSAULT,BUFF_ALL,5438,233,2256,1833,1098,1219,740,309,physique,2
+130454008,[Rafale de l'ordre] Cardinal,vent,Dague,False,CHARGE,ASSAULT,HEAL_ALL,6765,267,2275,2925,1523,1373,808,319,magique,3
+130454009,[Le petit aventurier] Eugeo,lumière,Dague,True,BREAK,ASSAULT,ASSAULT,6405,237,2236,2054,1086,1026,644,310,physique,2
+130454010,[Détente au bord de l'eau] Silica,eau,Dague,False,BREAK,ASSAULT,BUFF_ALL,6765,260,2318,2863,1406,1601,791,327,magique,4
+130454011,[Continuer ma route avec toi] Tizée,feu,Dague,True,CHARGE,ASSAULT,HEAL_ALL,5921,225,2155,1980,1267,1267,624,323,physique,3
+130454012,[Déjeuner au bord du lac] Silica,ténèbres,Dague,True,BREAK,ASSAULT,ENHANCE_MODE,6344,173,1813,2316,1291,1303,689,326,magique,1
+130454013,[De tout mon cœur] Silica,feu,Dague,True,BREAK,ASSAULT_FIELD,HEAL_ALL,6344,204,1813,2135,1231,1219,683,326,magique,3
+130454014,[Une chanteuse de talent] Seven,terre,Dague,False,CHARGE,ASSAULT,BUFF_FIELD,7230,284,2300,2950,1443,1598,681,338,magique,6
+130454015,[Petit cupidon] Yui,eau,Dague,True,HEAL_ALL,ASSAULT,BUFF,6731,256,2215,2799,1303,1327,606,331,magique,4
+130454016,[Une jolie dresseuse de bêtes] Silica,ténèbres,Dague,False,CHARGE,ASSAULT,ENHANCE_MODE,7950,284,3100,2225,1530,1425,791,340,physique,4
+130464005,"[La Lune, le saké, et toi] Bercouli",aucun,Épée,True,ASSAULT,BREAK,BUFF,6344,235,2064,1853,1237,1140,638,309,physique,3
+130524001,[Un ouf de soulagement] Lisbeth,ténèbres,Masse,False,CHARGE,ASSAULT,HEAL_ALL,7358,271,2650,2460,1419,1350,756,332,physique,3
+130524002,[Face au souffle léger du vent] Lisbeth,vent,Masse,False,CHARGE,ASSAULT,HEAL_ALL,8663,248,2430,2900,1458,1473,653,324,magique,3
+130524003,[L'heure de fêter le Nouvel An] Lisbeth,ténèbres,Masse,True,BREAK,ASSAULT,ENHANCE_MODE,9728,251,1913,2820,1508,1520,606,323,magique,4
+130524005,[L'inébranlable Master Macer] Lisbeth,ténèbres,Masse,False,BREAK,ASSAULT,ENHANCE_MODE,9000,276,3125,2550,1620,1620,694,332,physique,3
+130624001,[Surmonter le passé] Sinon,aucun,Fusil sniper,False,BREAK,ASSAULT_FIELD,HEAL,6750,257,2875,2288,1373,1523,825,314,physique,3
+130624002,[Je veux donc je peux] Sinon,aucun,Fusil sniper,False,CHARGE,ASSAULT,ASSAULT,6660,259,2890,2220,1347,1527,817,339,physique,3
+130624003,[Tirs d'ouverture] Sinon,vent,Fusil sniper,False,CHARGE,ASSAULT,BUFF_FIELD,6863,259,2888,2275,1388,1545,832,316,physique,5
+130624004,[La balle qui brise les ténèbres] Sinon,ténèbres,Fusil sniper,False,CHARGE,ASSAULT_ROTATION,ASSAULT,6975,284,2250,2913,1410,1530,815,323,magique,6
+130624005,[L'enquêteuse du terrain désertique] Sinon,terre,Fusil sniper,False,BREAK_FIELD,ASSAULT,BUFF,8025,276,2875,2175,1515,1515,743,333,physique,9
+130624006,[Le sniper au sang-froid] Sinon,terre,Fusil sniper,False,CHARGE,ASSAULT,ASSAULT_FIELD_HEAL,8100,289,2988,2875,1530,1530,715,335,physique,3
+130724001,[Le Ciel bleu infini] Sinon,lumière,Arc,False,CHARGE,ASSAULT,BUFF,7050,263,2713,2400,1463,1470,773,322,physique,5
+130724002,[Fée-chat de l'extase] Sinon,vent,Arc,True,BREAK,ASSAULT,HEAL,6344,251,2074,2014,1098,1110,616,312,physique,1
+130724003,[La déesse du soleil qui transperce tout] Sinon,terre,Arc,False,BREAK,ASSAULT,HEAL_ALL,7781,249,2369,2869,1406,1421,741,334,magique,6
+130724004,[Tempête de flèches de lumière] Sinon,lumière,Arc,False,CHARGE,ASSAULT,ENHANCE_MODE,7725,289,2800,2458,1530,1530,605,329,physique,3
+130724005,[L'archer pénétrant] Sinon,eau,Arc,False,BREAK_FIELD,ASSAULT,ENHANCE_MODE,7800,276,2800,2400,1440,1440,743,322,physique,4
+130724006,[Attraper la vague] Sinon,lumière,Arc,False,CHARGE,ASSAULT,ENHANCE_MODE,7650,310,2275,2950,1530,1538,701,326,magique,2
+130724007,[Heartbeat Daylight] Sinon,feu,Arc,False,BREAK,ASSAULT,ASSAULT_FIELD,8400,278,2375,3050,1590,1590,770,334,magique,6
+130724008,[Détente nocturne au son du vent] Sinon,aucun,Arc,False,BREAK,ASSAULT,ENHANCE_MODE,8250,286,2400,3175,1560,1590,777,326,magique,2
+130764006,[Le Chevalier de l’Intégrité impétueux] Deusolbert,feu,Arc,False,BREAK,ASSAULT,ENHANCE_MODE,8250,284,3125,2250,1590,1590,756,332,physique,4
+131214001,[Le combattant des flammes] Iskahn,feu,Poing,False,CHARGE,ASSAULT,ASSAULT,8250,236,2900,2050,1650,1230,756,337,physique,2
+131214002,[Les poings de la coopération] Iskahn,terre,Poing,False,BREAK,ASSAULT,ENHANCE_MODE,8100,257,2938,2025,1665,1260,731,337,physique,4
+131214003,[Un meneur d'avenir] Iskahn,aucun,Poing,False,CHARGE,ASSAULT_FIELD,ASSAULT,8250,273,3050,2250,1530,1530,688,332,physique,4
+131214004,[Lutteur de loups d'argent] Kirito,lumière,Poing,False,BREAK,ASSAULT,ENHANCE_MODE,8100,268,3100,2025,1710,1710,859,340,physique,4

@@ -1,5 +1,12 @@
+# Environnements et éditeurs
 .venv/
 .idea/
+
+# Fichiers générés par Python, Jupyter et pytest
 __pycache__/
 .ipynb_checkpoints/
+.pytest_cache/
+
+# Persos de test exportés par l'application (propres à chaque poste)
 data/personage_new.json
+data/*.tmp

@@ -1,0 +1,880 @@
+perso_id,slot,p,effet
+130114001,competence_1,Recollection Field (ténèbres) +N,Recollection Field +1
+130114001,competence_2,ATK -N%,Malus ATK
+130114001,competence_3,Résistance physique +N% sur tous les alliés,Bonus résistance physique (alliés)
+130114002,competence_1,Recollection Field (eau) +N,Recollection Field +1
+130114002,competence_2,Inflige des dégâts continus d'eau,Dégâts continus
+130114004,competence_3,ATK +N% sur tous les alliés,Bonus ATK (alliés)
+130114005,competence_3,Résistance magique +N% sur tous les alliés,Bonus résistance magique (alliés)
+130114006,competence_1,ATK -N%,Malus ATK
+130114006,competence_2,Augmentation des dégâts de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130114006,competence_3,Inflige des dégâts continus d'eau,Dégâts continus
+130114006,incarnation,Augmentation des dégâts de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130114007,competence_1,Inflige des dégâts continus de vent,Dégâts continus
+130114007,competence_2,Résistance physique -N%,Malus résistance physique
+130114007,competence_3,ATK +N% sur tous les alliés,Bonus ATK (alliés)
+130114007,incarnation,Inflige des dégâts continus de vent,Dégâts continus
+130114008,competence_1,Guérison des alliés d'élément vent,Guérison / soin de statut
+130114009,competence_1,Réduit la Charge de Volonté ennemie de N%,Réduction de la Charge ennemie
+130114009,competence_2,Augmentation des dégâts de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130114009,competence_3,Inflige des dégâts continus de vent,Dégâts continus
+130114009,incarnation,Augmentation des dégâts de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130114010,competence_1,Résistance physique -N%,Malus résistance physique
+130114010,competence_2,Augmentation des dégâts de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130114010,competence_3,"De plus, DEF et MDEF -N% si l'ennemi est d'élément terre",Malus DEF et MDEF (ennemi d'un élément)
+130114010,competence_3,Résistances physique et magique -N% sur un ennemi,Malus résistance magique
+130114010,competence_3,Résistances physique et magique -N% sur un ennemi,Malus résistance physique
+130114010,incarnation,Absorption des HP de l'ennemi visé par l'attaque supplémentaire et augmentation des dégâts de l'ennemi subissant un malus de résistance physique ou magique,Absorption de HP
+130114010,incarnation,Absorption des HP de l'ennemi visé par l'attaque supplémentaire et augmentation des dégâts de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130114010,incarnation,Et attaque tranchante supplémentaire sur un ennemi,Attaque supplémentaire
+130114011,competence_1,Inflige des dégâts continus neutres,Dégâts continus
+130114011,competence_2,Augmentation des dégâts de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130114011,incarnation,Résistance physique -N% sur l'ennemi,Malus résistance physique
+130114012,competence_1,Résistance physique -N%,Malus résistance physique
+130114012,competence_2,Augmentation des dégâts de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130114012,incarnation,Résistance physique -N% sur l'ennemi,Malus résistance physique
+130114013,competence_1,Inflige des dégâts continus d'eau,Dégâts continus
+130114013,competence_2,ATK et MATK +N% sur tous les alliés,Bonus ATK (alliés)
+130114013,competence_2,ATK et MATK +N% sur tous les alliés,Bonus MATK (alliés)
+130114013,competence_3,Recollection Field (eau) +N,Recollection Field +1
+130114013,incarnation,Inflige des dégâts continus d'eau,Dégâts continus
+130114013,incarnation,MP -N% pour l'élément eau,Malus MP selon l'élément
+130114013,incarnation,Recollection Field spécial (eau) +N : conso,Recollection Field spécial +3
+130114013,incarnation,Résistance physique -N%,Malus résistance physique
+130114014,competence_1,Inflige des dégâts continus neutres,Dégâts continus
+130114014,competence_2,Augmentation des dégâts de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130114014,competence_2,Augmentation des dégâts de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130114014,competence_3,ATK +N% sur tous les alliés,Bonus ATK (alliés)
+130114014,competence_3,Recollection Field (neutre) +N,Recollection Field +1
+130114014,incarnation,Augmentation des dégâts de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130114014,incarnation,Recollection Field (neutre) +N,Recollection Field +2
+130114015,competence_2,ATK +N% et MATK +N% sur tous les alliés,Bonus ATK (alliés)
+130114015,competence_2,ATK +N% et MATK +N% sur tous les alliés,Bonus MATK (alliés)
+130114015,competence_3,Résistance physique des alliés d'élément neutre +N%,Bonus résistance physique (alliés)
+130114016,competence_1,Augmentation de la Charge de Volonté de N% quand le bonus d'ATK sur soi-même est de N% ou plus,Charge de Volonté + : bonus d'ATK ou de critique atteint un seuil
+130114016,competence_2,ATK et dégâts critiques +N% pour tous les alliés,Bonus ATK (alliés)
+130114016,competence_2,ATK et dégâts critiques +N% pour tous les alliés,Bonus dégâts critiques (alliés)
+130114016,competence_3,Recollection Field (neutre) +N,Recollection Field +1
+130114016,incarnation,"Augmentation des dégâts de N% lorsque le bonus d'ATK sur soi-même est de N% ou plus, et augmentation supplémentaire des dégâts de N% lorsque le même bonus est de N% ou plus",Dégâts + : bonus d'ATK ou de critique atteint un seuil
+130114017,competence_1,Inflige des dégâts continus cumulés,Dégâts continus
+130114017,competence_2,Inflige des dégâts continus cumulés,Dégâts continus
+130114017,competence_3,Recollection Field (vent) +N,Recollection Field +1
+130114017,incarnation,Augmentation des dégâts de N% de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130114017,incarnation,Recollection Field spécial (vent) +N : ATK du perso. d'élément vent +N%,Recollection Field spécial +3
+130114018,competence_1,ATK -N%,Malus ATK
+130114018,competence_2,Provoque l'ennemi,Provocation
+130114018,competence_3,ATK +N% sur un allié,Bonus ATK (alliés)
+130114018,competence_3,Résistance physique +N%,Bonus résistance physique (cible non précisée)
+130114018,incarnation,Résistance physique -N% sur l'ennemi,Malus résistance physique
+130114019,competence_1,Résistance physique -N%,Malus résistance physique
+130114019,competence_2,Augmentation des dégâts de N% de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130114019,competence_3,ATK +N% sur soi-même,Bonus ATK (soi-même)
+130114019,competence_3,Résistance physique +N% sur soi-même,Bonus résistance physique (soi-même)
+130114019,incarnation,Résistance physique +N% sur tous les alliés,Bonus résistance physique (alliés)
+130114020,competence_1,Recollection Field (lumière) +N,Recollection Field +1
+130114020,competence_1,Réduit de N% la Charge de Volonté de l'ennemi,Réduction de la Charge ennemie
+130114020,competence_2,Augmentation des dégâts de N% lors d'un lien de compétences,Dégâts + : lien de compétences
+130114020,competence_3,ATK et dégâts critiques +N% pour tous les alliés,Bonus ATK (alliés)
+130114020,competence_3,ATK et dégâts critiques +N% pour tous les alliés,Bonus dégâts critiques (alliés)
+130114020,incarnation,Recollection Field spécial (lumière) +N : ATK du perso. d'élément lumière +N%,Recollection Field spécial +3
+130114021,competence_1,Augmentation de la Charge de Volonté de N% quand Recollection Field (ténèbres) est de N ou plus,Charge de Volonté + : Recollection Field atteint un seuil
+130114021,competence_2,Augmentation des dégâts de N% de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130114021,competence_2,Augmentation des dégâts de N% quand Recollection Field (ténèbres) est de N ou plus,Dégâts + : Recollection Field atteint un seuil
+130114021,competence_3,Recollection Field (ténèbres) +N,Recollection Field +1
+130114021,competence_3,Résistance magique -N% sur tous les ennemis,Malus résistance magique
+130114021,competence_3,Résistance physique +N% sur tous les alliés,Bonus résistance physique (alliés)
+130114021,incarnation,Recollection Field spécial (ténèbres) +N : MATK du perso. d'élément ténèbres +N%,Recollection Field spécial +3
+130114022,competence_1,MATK +N% sur tous les alliés,Bonus MATK (alliés)
+130114022,competence_2,MATK +N% sur tous les alliés,Bonus MATK (alliés)
+130114022,competence_3,Recollection Field (lumière) +N,Recollection Field +1
+130114022,competence_3,Résistance physique +N% sur tous les alliés,Bonus résistance physique (alliés)
+130114022,incarnation,Recollection Field spécial (Lumière) +N : augmentation des dégâts infligés de l'élément lumière +N% contre l'élément ténèbres,Recollection Field spécial +3
+130114023,competence_1,Résistance physique -N%,Malus résistance physique
+130114023,competence_2,Augmentation des dégâts de N% de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130114023,competence_3,Recollection Field (feu) +N,Recollection Field +1
+130114023,incarnation,Augmentation de N% des dégâts de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130114023,incarnation,Augmentation des dégâts de N% quand Recollection Field (feu) est égal ou supérieur à N,Dégâts + : Recollection Field atteint un seuil
+130124001,competence_1,Recollection Field (terre) +N,Recollection Field +1
+130124001,competence_2,MATK -N%,Malus MATK
+130124001,competence_3,Résistance magique +N% sur tous les alliés,Bonus résistance magique (alliés)
+130124002,competence_2,Recollection Field (vent) +N,Recollection Field +1
+130124003,competence_1,Provoque l'ennemi,Provocation
+130124003,competence_3,Résistance physique +N% sur un allié,Bonus résistance physique (alliés)
+130124004,competence_2,Résistance magique -N%,Malus résistance magique
+130124006,competence_1,MATK -N%,Malus MATK
+130124006,competence_2,Résistance physique -N%,Malus résistance physique
+130124006,competence_3,Résistance physique +N% sur tous les alliés,Bonus résistance physique (alliés)
+130124007,competence_1,Taux d'esquive +N% sur soi-même,Bonus esquive (soi-même)
+130124007,competence_2,Résistance magique -N%,Malus résistance magique
+130124007,competence_3,Provoque l'ennemi,Provocation
+130124008,competence_3,MATK +N% sur un allié,Bonus MATK (alliés)
+130124008,competence_3,Résistance physique +N%,Bonus résistance physique (cible non précisée)
+130124009,competence_1,Guérison des alliés d'élément feu,Guérison / soin de statut
+130124009,competence_3,Résistance magique +N% sur tous les alliés,Bonus résistance magique (alliés)
+130124010,competence_1,Guérison des alliés d'élément lumière,Guérison / soin de statut
+130124010,competence_3,Résistance physique +N% sur tous les alliés,Bonus résistance physique (alliés)
+130124011,competence_1,Guérison sur les alliés d'élément ténèbres,Guérison / soin de statut
+130124011,competence_3,Résistance physique +N% sur tous les alliés,Bonus résistance physique (alliés)
+130124011,competence_3,Résistance physique -N% sur tous les ennemis,Malus résistance physique
+130124012,competence_1,MATK -N%,Malus MATK
+130124012,competence_1,Recollection Field (feu) +N,Recollection Field +1
+130124012,competence_2,"Provoque l'ennemi, ATK +N% sur soi-même, résistance totale -N% sur soi-même",Bonus ATK (soi-même)
+130124012,competence_2,"Provoque l'ennemi, ATK +N% sur soi-même, résistance totale -N% sur soi-même",Provocation
+130124012,competence_3,Guérison,Guérison / soin de statut
+130124012,incarnation,Inflige des dégâts continus de feu,Dégâts continus
+130124013,competence_1,MATK -N%,Malus MATK
+130124013,competence_2,Et attaque tranchante supplémentaire sur un ennemi (total sur un ennemi : énorme),Attaque supplémentaire
+130124013,competence_3,ATK +N% sur soi-même,Bonus ATK (soi-même)
+130124013,competence_3,Taux d'esquive +N%,Bonus esquive (cible non précisée)
+130124013,incarnation,Inflige des dégâts continus de ténèbres,Dégâts continus
+130124015,competence_1,Augmentation de la capacité à briser la Volonté de l'ennemi subissant des dégâts continus,Break de Volonté + : ennemi en dégâts continus
+130124015,competence_2,Augmentation des dégâts de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130124015,competence_3,Résistance physique -N% et résistance magique -N% face à l'ennemi d'élément ténèbres,Malus résistance magique
+130124015,competence_3,Résistance physique -N% et résistance magique -N% face à l'ennemi d'élément ténèbres,Malus résistance physique
+130124015,incarnation,Et attaque magique supplémentaire sur un ennemi,Attaque supplémentaire
+130124015,incarnation,Inflige des dégâts continus de lumière sur l'ennemi visé par l'attaque supplémentaire,Dégâts continus
+130124016,competence_1,Résistance physique -N%,Malus résistance physique
+130124016,competence_2,Dégâts critiques de tous les alliés +N%,Bonus dégâts critiques (alliés)
+130124016,competence_3,ATK +N% sur tous les alliés,Bonus ATK (alliés)
+130124017,competence_1,Résistance physique des alliés d'élément feu +N%,Bonus résistance physique (alliés)
+130124017,competence_2,Augmentation de la Charge de Volonté face à l'ennemi subissant des dégâts continus,Charge de Volonté + : ennemi en dégâts continus
+130124017,competence_3,Dégâts critiques +N%,Bonus dégâts critiques (cible non précisée)
+130124017,incarnation,Inflige des dégâts continus de feu,Dégâts continus
+130124018,competence_1,MATK -N%,Malus MATK
+130124018,competence_2,Augmentation des dégâts de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130124018,competence_3,Inflige des dégâts continus neutres,Dégâts continus
+130124018,incarnation,Augmentation des dégâts de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130124019,competence_1,Résistance magique -N%,Malus résistance magique
+130124019,competence_2,Augmentation des dégâts de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130124019,incarnation,Résistance magique -N%,Malus résistance magique
+130124020,competence_1,Résistance magique -N%,Malus résistance magique
+130124020,competence_2,Augmentation des dégâts de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130124020,incarnation,Résistance magique -N%,Malus résistance magique
+130124021,competence_2,ATK +N% sur soi-même,Bonus ATK (soi-même)
+130124021,incarnation,ATK +N% sur soi-même,Bonus ATK (soi-même)
+130124022,competence_1,Résistance magique -N%,Malus résistance magique
+130124022,competence_2,Augmentation des dégâts de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130124023,competence_1,Résistance magique -N%,Malus résistance magique
+130124023,competence_2,MATK +N% sur tous les alliés,Bonus MATK (alliés)
+130124023,incarnation,MATK +N% sur tous les alliés,Bonus MATK (alliés)
+130124024,competence_1,Inflige des dégâts continus de lumière,Dégâts continus
+130124024,competence_2,Augmentation des dégâts de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130124024,competence_3,Multiplie sa Charge de Volonté par N,Multiplication Charge/Break (soi)
+130124024,incarnation,Et attaque tranchante supplémentaire sur un ennemi,Attaque supplémentaire
+130124024,incarnation,Inflige des dégâts continus de lumière sur l'ennemi visé par l'attaque supplémentaire,Dégâts continus
+130124026,competence_1,Résistance magique -N%,Malus résistance magique
+130124027,incarnation,Recollection Field spécial (lumière) +N,Recollection Field spécial +3
+130124028,competence_1,Résistance magique -N%,Malus résistance magique
+130124028,competence_2,Augmentation des dégâts de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130124028,competence_3,Recollection Field (feu) +N,Recollection Field +1
+130124028,incarnation,Recollection Field spécial (Feu) +N,Recollection Field spécial +3
+130124028,incarnation,Résistance magique -N%,Malus résistance magique
+130124029,competence_1,Résistance magique -N%,Malus résistance magique
+130124029,competence_2,Augmentation des dégâts de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130124029,competence_3,Recollection Field (feu) +N,Recollection Field +1
+130124029,incarnation,Augmentation des dégâts de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130124029,incarnation,Et attaque magique supplémentaire sur tous les ennemis,Attaque supplémentaire
+130124030,competence_2,Recollection Field (lumière) +N,Recollection Field +1
+130124031,competence_1,Résistance physique -N%,Malus résistance physique
+130124031,competence_2,Augmentation des dégâts de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130124031,competence_3,Recollection Field (lumière) +N,Recollection Field +1
+130124031,incarnation,Augmentation des dégâts de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130124031,incarnation,Résistance physique -N% et résistance magique -N%,Malus résistance magique
+130124031,incarnation,Résistance physique -N% et résistance magique -N%,Malus résistance physique
+130124032,competence_1,Inflige des dégâts continus neutres,Dégâts continus
+130124032,competence_2,Augmentation des dégâts de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130124032,competence_3,Dégâts critiques de tous les alliés +N%,Bonus dégâts critiques (alliés)
+130124032,competence_3,Recollection Field (neutre) +N,Recollection Field +1
+130124032,incarnation,Augmentation des dégâts de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130124032,incarnation,Dégâts critiques de tous les alliés +N%,Bonus dégâts critiques (alliés)
+130124033,competence_2,Inflige des dégâts continus de ténèbres,Dégâts continus
+130124033,competence_3,Dégâts critiques +N%,Bonus dégâts critiques (cible non précisée)
+130124034,incarnation,Recollection Field (terre) +N,Recollection Field +1
+130124035,competence_3,ATK +N% sur soi-même,Bonus ATK (soi-même)
+130124036,competence_1,Résistance physique -N%,Malus résistance physique
+130124036,competence_2,Augmentation des dégâts de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130124036,competence_3,Recollection Field (lumière) +N,Recollection Field +1
+130124036,competence_3,Résistance physique +N% sur tous les alliés,Bonus résistance physique (alliés)
+130124036,incarnation,Augmentation des dégâts de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130124036,incarnation,Résistance physique +N% sur tous les alliés,Bonus résistance physique (alliés)
+130124037,competence_1,Résistance physique -N%,Malus résistance physique
+130124037,competence_2,Augmentation des dégâts de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130124037,competence_3,ATK +N% sur soi-même,Bonus ATK (soi-même)
+130124037,incarnation,Augmentation des dégâts de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130124038,competence_2,Augmentation des dégâts à mesure que le nombre de cibles augmente,Dégâts + : nombre de cibles
+130124038,competence_3,ATK +N% sur tous les alliés,Bonus ATK (alliés)
+130124038,competence_3,Résistance physique +N% sur tous les alliés,Bonus résistance physique (alliés)
+130124038,incarnation,Augmentation des dégâts à mesure que le nombre de cibles augmente,Dégâts + : nombre de cibles
+130124039,competence_1,Recollection Field (eau) +N,Recollection Field +1
+130124039,competence_1,Résistance physique -N%,Malus résistance physique
+130124039,competence_2,ATK et dégâts critiques +N% pour tous les alliés,Bonus ATK (alliés)
+130124039,competence_2,ATK et dégâts critiques +N% pour tous les alliés,Bonus dégâts critiques (alliés)
+130124039,competence_3,ATK et dégâts critiques +N% pour tous les alliés,Bonus ATK (alliés)
+130124039,competence_3,ATK et dégâts critiques +N% pour tous les alliés,Bonus dégâts critiques (alliés)
+130124039,incarnation,Recollection Field spécial (eau) +N : augmentation de la charge de l'élément eau en fonction du niveau de la jauge quand la Volonté de l'équipe est de N% ou moins,Recollection Field spécial +3
+130124040,competence_1,Réduit la Charge de Volonté ennemie de N%,Réduction de la Charge ennemie
+130124040,competence_2,Augmentation des dégâts de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130124040,competence_2,Augmentation des dégâts quand Recollection Field (terre) est de N ou plus,Dégâts + : Recollection Field atteint un seuil
+130124040,competence_3,ATK +N% sur soi-même,Bonus ATK (soi-même)
+130124040,incarnation,Augmentation des dégâts quand Recollection Field (terre) est de N ou plus,Dégâts + : Recollection Field atteint un seuil
+130124041,competence_1,ATK -N%,Malus ATK
+130124041,competence_1,Augmentation de la capacité à briser la Volonté de l'ennemi quand Recollection Field (vent) est de N ou plus,Break de Volonté + : Recollection Field atteint un seuil
+130124041,competence_1,Soigne l'étourdissement de tous les alliés,Guérison / soin de statut
+130124041,competence_2,ATK et MATK +N% sur tous les alliés,Bonus ATK (alliés)
+130124041,competence_2,ATK et MATK +N% sur tous les alliés,Bonus MATK (alliés)
+130124041,competence_2,Soigne l'étourdissement,Guérison / soin de statut
+130124041,competence_3,Recollection Field (vent) +N,Recollection Field +1
+130124041,competence_3,Soigne l'étourdissement,Guérison / soin de statut
+130124041,incarnation,ATK et MATK +N% sur tous les alliés,Bonus ATK (alliés)
+130124041,incarnation,ATK et MATK +N% sur tous les alliés,Bonus MATK (alliés)
+130124041,incarnation,Et attaque tranchante supplémentaire sur tous les ennemis,Attaque supplémentaire
+130124041,incarnation,Soigne l'étourdissement,Guérison / soin de statut
+130124042,competence_1,Recollection Field (ténèbres) +N,Recollection Field +1
+130124042,competence_2,Augmentation des dégâts de N% quand Recollection Field (ténèbres) est de N ou plus,Dégâts + : Recollection Field atteint un seuil
+130124042,competence_3,ATK +N% sur soi-même,Bonus ATK (soi-même)
+130124042,competence_3,Résistance physique -N% et résistance magique -N% sur tous les ennemis,Malus résistance magique
+130124042,competence_3,Résistance physique -N% et résistance magique -N% sur tous les ennemis,Malus résistance physique
+130124042,incarnation,Augmentation des dégâts de N% quand Recollection Field (ténèbres) est de N ou plus,Dégâts + : Recollection Field atteint un seuil
+130124043,competence_1,Recollection Field (eau) +N,Recollection Field +1
+130124043,competence_2,Augmentation des dégâts de N% de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130124043,competence_2,Augmentation des dégâts de N% quand Recollection Field (eau) est de N ou plus,Dégâts + : Recollection Field atteint un seuil
+130124043,competence_3,Recollection Field (eau) +N,Recollection Field +1
+130124043,incarnation,Augmentation des dégâts de N% quand Recollection Field (eau) est de N ou plus,Dégâts + : Recollection Field atteint un seuil
+130124044,competence_1,Augmentation de N% des dégâts critiques pour soi-même,Bonus dégâts critiques (soi-même)
+130124044,competence_1,Réduit de N% le Break de Volonté de l'ennemi,Réduction du Break ennemi
+130124044,competence_2,Augmentation de N% des dégâts critiques pour soi-même,Bonus dégâts critiques (soi-même)
+130124044,competence_3,Augmentation de N% des dégâts critiques pour soi-même,Bonus dégâts critiques (soi-même)
+130124044,competence_3,Capacité à charger sa Volonté x N,Multiplication Charge/Break (soi)
+130124044,incarnation,"Augmentation des dégâts de N% lorsque le bonus de dégâts critiques sur soi-même est de N% ou plus, et augmentation supplémentaire des dégâts de N% lorsque le même bonus est de N% ou plus",Dégâts + : bonus d'ATK ou de critique atteint un seuil
+130124045,competence_3,Résistance physique +N% sur soi-même,Bonus résistance physique (soi-même)
+130124045,incarnation,Lance sur tous les alliés un bonus augmentant les dégâts à mesure que le nombre de cibles augmente,Dégâts + : nombre de cibles
+130124046,competence_1,Réduit la Charge de Volonté de l'ennemi de N%,Réduction de la Charge ennemie
+130124046,competence_1,Résistance magique -N%,Malus résistance magique
+130124046,competence_2,Augmentation des dégâts de N% de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130124046,competence_3,MATK +N% sur soi-même,Bonus MATK (soi-même)
+130124046,competence_3,Recollection Field (vent) +N,Recollection Field +1
+130124046,incarnation,Augmentation des dégâts de N% de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130124047,competence_1,Réduit de N% le Break de Volonté de l'ennemi,Réduction du Break ennemi
+130124047,competence_2,Augmentation des dégâts de N% quand un lien de compétences est effectué,Dégâts + : lien de compétences
+130124047,competence_3,MATK +N% sur soi-même,Bonus MATK (soi-même)
+130124047,competence_3,Recollection Field (vent) +N,Recollection Field +1
+130124047,incarnation,MATK +N% sur tous les alliés,Bonus MATK (alliés)
+130124048,competence_1,Réduit la Charge de Volonté de l'ennemi de N%,Réduction de la Charge ennemie
+130124048,competence_2,Augmentation des dégâts de N% quand un lien de compétences est effectué,Dégâts + : lien de compétences
+130124048,incarnation,Recollection Field spécial (vent) +N : augmentation de la Charge de l'élément vent en fonction du niveau de la jauge quand la Volonté de l'équipe est de N% ou moins,Recollection Field spécial +3
+130124049,competence_1,Augmentation des dégâts à mesure que le nombre de cibles augmente,Dégâts + : nombre de cibles
+130124049,competence_2,Augmentation des dégâts à mesure que le nombre de cibles augmente,Dégâts + : nombre de cibles
+130124049,competence_2,Recollection Field (lumière) +N,Recollection Field +1
+130124049,competence_3,Recollection Field (lumière) +N,Recollection Field +1
+130124049,incarnation,Augmentation des dégâts à mesure que le nombre de cibles augmente,Dégâts + : nombre de cibles
+130124049,incarnation,Recollection Field (lumière) +N,Recollection Field +2
+130124050,competence_1,Résistance physique -N%,Malus résistance physique
+130124050,competence_2,Augmentation des dégâts de N% de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130124050,competence_3,Recollection Field (feu) +N,Recollection Field +1
+130124050,incarnation,Augmentation des dégâts de N% de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130124050,incarnation,Augmentation des dégâts de N% de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130124050,incarnation,Augmentation des dégâts de N% quand Recollection Field (feu) est de N ou plus,Dégâts + : Recollection Field atteint un seuil
+130124051,competence_1,Attaque tranchante sur un ennemi en augmentant de N% l'ATK sur soi-même,Bonus ATK (soi-même)
+130124051,competence_1,Résistance physique -N%,Malus résistance physique
+130124051,competence_2,Attaque tranchante sur un ennemi en augmentant de N% l'ATK sur soi-même,Bonus ATK (soi-même)
+130124051,competence_2,Augmentation des dégâts de N% de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130124051,competence_2,Augmentation des dégâts de N% quand Recollection Field (eau) est de N ou plus,Dégâts + : Recollection Field atteint un seuil
+130124051,competence_3,Attaque tranchante sur un ennemi en augmentant de N% l'ATK sur soi-même,Bonus ATK (soi-même)
+130124051,competence_3,Augmentation de la Charge de Volonté de N% quand Recollection Field (eau) est de N ou plus,Charge de Volonté + : Recollection Field atteint un seuil
+130124051,incarnation,Attaque tranchante de Volonté sur un ennemi en augmentant de N% l'ATK sur soi-même,Bonus ATK (soi-même)
+130124051,incarnation,Augmentation des dégâts de N% de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130124051,incarnation,"Augmentation des dégâts de N% lorsque le bonus d'ATK sur soi-même est de N% ou plus, et augmentation supplémentaire des dégâts de N% lorsque le même bonus est de N% ou plus",Dégâts + : bonus d'ATK ou de critique atteint un seuil
+130124052,competence_1,Réduit la Charge de Volonté ennemie de N%,Réduction de la Charge ennemie
+130124052,competence_2,Augmentation des dégâts de N% quand Recollection Field (ténèbres) est de N ou plus,Dégâts + : Recollection Field atteint un seuil
+130124052,competence_3,Recollection Field (ténèbres) +N,Recollection Field +1
+130124052,incarnation,Recollection Field spécial (ténèbres) +N : ATK du perso. d'élément ténèbres +N%,Recollection Field spécial +3
+130124053,competence_1,Résistance physique +N% sur tous les alliés,Bonus résistance physique (alliés)
+130124053,competence_3,Recollection Field (eau) +N,Recollection Field +1
+130124053,competence_3,Résistance physique +N% sur tous les alliés,Bonus résistance physique (alliés)
+130124053,incarnation,Augmentation des dégâts de N% quand Recollection Field (eau) est de N ou plus,Dégâts + : Recollection Field atteint un seuil
+130124053,incarnation,Résistance physique +N% sur tous les alliés,Bonus résistance physique (alliés)
+130124054,competence_1,Résistance physique -N%,Malus résistance physique
+130124054,competence_2,Augmentation des dégâts de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130124054,competence_3,ATK +N% sur tous les alliés,Bonus ATK (alliés)
+130124054,competence_3,Recollection Field (terre) +N,Recollection Field +1
+130124054,incarnation,Augmentation des dégâts de N% de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130124055,competence_1,Réduit de N% le Break de Volonté de l'ennemi,Réduction du Break ennemi
+130124055,competence_2,Augmentation des dégâts de N% lors d'un lien de compétences,Dégâts + : lien de compétences
+130124055,competence_3,Multiplie la Charge de Volonté par N sur soi-même,Multiplication Charge/Break (soi)
+130124056,competence_1,Réduit de N% la Charge de Volonté de l'ennemi,Réduction de la Charge ennemie
+130124056,competence_2,Augmentation des dégâts de N% lors d'un lien de compétences,Dégâts + : lien de compétences
+130124056,competence_3,Multiplie le Break de Volonté par N sur soi-même,Multiplication Charge/Break (soi)
+130124057,competence_1,Résistance magique -N%,Malus résistance magique
+130124057,competence_2,Augmentation des dégâts de N% de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130124057,competence_3,Recollection Field (neutre) +N,Recollection Field +1
+130124057,incarnation,Recollection Field spécial (neutre) +N : MATK du perso. d'élément neutre +N%,Recollection Field spécial +3
+130124058,competence_3,MATK +N% sur tous les alliés,Bonus MATK (alliés)
+130124058,competence_3,Recollection Field (neutre) +N,Recollection Field +1
+130124058,competence_3,Résistance physique +N%,Bonus résistance physique (cible non précisée)
+130124058,incarnation,Augmentation des dégâts de N% de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130124061,competence_1,Attaque magique sur un ennemi en augmentant de N% la MATK sur soi-même,Bonus MATK (soi-même)
+130124061,competence_2,Attaque magique sur un ennemi en augmentant de N% la MATK sur soi-même,Bonus MATK (soi-même)
+130124061,competence_3,MATK +N% sur soi-même,Bonus MATK (soi-même)
+130124061,incarnation,"Augmentation des dégâts de N% lorsque le bonus de MATK sur soi-même est de N% ou plus, et augmentation supplémentaire des dégâts de N% lorsque le même bonus est de N% ou plus",Dégâts + : bonus d'ATK ou de critique atteint un seuil
+130124063,competence_1,Réduit de N% le Break de Volonté de l'ennemi,Réduction du Break ennemi
+130124063,competence_3,Dégâts critiques +N% sur tous les alliés,Bonus dégâts critiques (alliés)
+130124063,competence_3,Recollection Field (terre) +N,Recollection Field +1
+130124063,incarnation,Dégâts critiques +N% sur tous les alliés,Bonus dégâts critiques (alliés)
+130124064,competence_1,Dégâts critiques +N%,Bonus dégâts critiques (cible non précisée)
+130124064,competence_2,Dégâts critiques +N%,Bonus dégâts critiques (cible non précisée)
+130124064,competence_3,Recollection Field (terre) +N,Recollection Field +1
+130124064,competence_3,Résistance physique +N% sur tous les alliés,Bonus résistance physique (alliés)
+130124064,incarnation,Résistance physique +N% sur tous les alliés,Bonus résistance physique (alliés)
+130124065,competence_1,Résistance à l'élément terre -N%,Malus résistance d'élément
+130124065,competence_2,ATK -N%,Malus ATK
+130124065,competence_3,Recollection Field (terre) +N,Recollection Field +1
+130124065,incarnation,Recollection Field spécial (terre) +N : soins HP du perso. d'élément terre à chaque tour,Recollection Field spécial +3
+130124066,competence_1,Inflige des dégâts continus cumulés,Dégâts continus
+130124066,competence_2,Inflige des dégâts continus cumulés,Dégâts continus
+130124066,competence_3,Dégâts critiques +N% sur tous les alliés,Bonus dégâts critiques (alliés)
+130124066,incarnation,"Augmentation des dégâts de N% lorsque le bonus de dégâts critiques est de N% ou plus, et augmentation supplémentaire des dégâts de N% lorsque le même bonus est de N% ou plus",Dégâts + : bonus d'ATK ou de critique atteint un seuil
+130124066,incarnation,Augmentation des dégâts en fonction du nombre de dégâts infligés sur l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130124067,competence_1,Inflige des dégâts continus cumulés,Dégâts continus
+130124067,competence_1,La résistance à l'élément neutre diminue de N%,Malus résistance d'élément
+130124067,competence_2,Augmentation des dégâts de N% de l'ennemi subissant un malus de résistance d'élément,Dégâts + : ennemi avec malus de résistance d'élément
+130124067,competence_2,Augmentation des dégâts en fonction du nombre de dégâts infligés sur l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130124067,competence_3,Inflige des dégâts continus cumulés,Dégâts continus
+130124067,incarnation,Augmentation des dégâts de N% de l'ennemi subissant un malus de résistance d'élément,Dégâts + : ennemi avec malus de résistance d'élément
+130124067,incarnation,Augmentation des dégâts en fonction du nombre de dégâts infligés sur l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130124068,competence_1,Résistance à l'élément lumière -N%,Malus résistance d'élément
+130124068,competence_2,Augmentation des dégâts de N% de l'ennemi subissant un malus de résistance d'élément,Dégâts + : ennemi avec malus de résistance d'élément
+130124068,competence_3,ATK et MATK +N% sur tous les alliés,Bonus ATK (alliés)
+130124068,competence_3,ATK et MATK +N% sur tous les alliés,Bonus MATK (alliés)
+130124068,incarnation,Augmentation des dégâts de N% de l'ennemi subissant un malus de résistance d'élément,Dégâts + : ennemi avec malus de résistance d'élément
+130124068,incarnation,"Augmentation des dégâts de N% lorsque le bonus de MATK sur soi-même est de N% ou plus, et augmentation supplémentaire des dégâts de N% lorsque le même bonus est de N% ou plus",Dégâts + : bonus d'ATK ou de critique atteint un seuil
+130124069,competence_1,ATK +N% sur soi-même,Bonus ATK (soi-même)
+130124069,competence_1,Augmentation des dégâts de N% de l'ennemi subissant un malus de résistance d'élément,Dégâts + : ennemi avec malus de résistance d'élément
+130124069,competence_2,Augmentation des dégâts de N% de l'ennemi subissant un malus de résistance d'élément,Dégâts + : ennemi avec malus de résistance d'élément
+130124069,competence_3,Recollection Field (Ténèbres) +N,Recollection Field +1
+130124069,competence_3,Résistance physique +N% sur tous les alliés,Bonus résistance physique (alliés)
+130124069,incarnation,Élément ténèbres -N% sur l'ennemi,Malus d'élément sur l'ennemi
+130124070,competence_1,Résistance magique sur l'ennemi -N%,Malus résistance magique
+130124070,competence_2,Augmentation des dégâts à mesure que le nombre de cibles augmente,Dégâts + : nombre de cibles
+130124070,competence_3,MATK +N% sur soi-même,Bonus MATK (soi-même)
+130124070,incarnation,Augmentation des dégâts de N% de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130124070,incarnation,Augmentation des dégâts en fonction du nombre de dégâts infligés sur l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130124070,incarnation,Augmentation des dégâts à mesure que le nombre de cibles augmente,Dégâts + : nombre de cibles
+130134003,competence_3,Résistance physique -N%,Malus résistance physique
+130134004,competence_1,Recollection Field (ténèbres) +N,Recollection Field +1
+130134004,competence_2,Inflige des dégâts continus de ténèbres,Dégâts continus
+130134004,incarnation,Augmente les dégâts lorsque la Volonté de l'ennemi dépasse N%,Dégâts + : Volonté ennemie au-dessus d'un seuil
+130134004,incarnation,Réduit de N% le Break de la compétence ennemie,Réduction du Break de la compétence ennemie
+130134005,competence_1,Résistance physique -N%,Malus résistance physique
+130134005,competence_2,Provoque l'ennemi,Provocation
+130134005,competence_3,Résistance physique +N%,Bonus résistance physique (cible non précisée)
+130134005,incarnation,Augmentation des dégâts de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130134006,competence_1,Attaque tranchante sur un ennemi en augmentant de N% l'ATK sur soi-même,Bonus ATK (soi-même)
+130134006,competence_1,Inflige des dégâts continus de vent,Dégâts continus
+130134006,competence_2,Attaque tranchante sur un ennemi en augmentant de N% l'ATK sur soi-même,Bonus ATK (soi-même)
+130134006,competence_2,Augmentation des dégâts de N% de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130134006,competence_3,Attaque tranchante sur un ennemi en augmentant de N% l'ATK sur soi-même,Bonus ATK (soi-même)
+130134006,competence_3,Augmentation de la capacité à briser la Volonté de l'ennemi subissant des dégâts continus,Break de Volonté + : ennemi en dégâts continus
+130134006,incarnation,Augmentation des dégâts de N% de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130134006,incarnation,Augmentation des dégâts de N% quand Recollection Field (vent) est de N ou plus,Dégâts + : Recollection Field atteint un seuil
+130134007,competence_1,ATK -N%,Malus ATK
+130134007,competence_2,Provoque l'ennemi,Provocation
+130134007,competence_3,ATK +N% sur soi-même,Bonus ATK (soi-même)
+130134007,competence_3,Inflige une contre-attaque après avoir reçu soi-même une attaque physique,Contre-attaque
+130134007,competence_3,Résistance physique +N%,Bonus résistance physique (cible non précisée)
+130134007,incarnation,"Augmentation des dégâts de N% lorsque le bonus d'ATK sur soi-même est de N% ou plus, et augmentation supplémentaire des dégâts de N% lorsque le même bonus est de N% ou plus",Dégâts + : bonus d'ATK ou de critique atteint un seuil
+130134008,competence_1,Attaque magique sur un ennemi en augmentant de N% la MATK sur soi-même,Bonus MATK (soi-même)
+130134008,competence_2,Attaque magique sur un ennemi en augmentant de N% la MATK sur soi-même,Bonus MATK (soi-même)
+130134008,competence_3,MATK +N% sur soi-même,Bonus MATK (soi-même)
+130144001,competence_2,Recollection Field (ténèbres) +N,Recollection Field +1
+130144001,competence_3,Taux d'esquive +N%,Bonus esquive (cible non précisée)
+130144002,competence_3,MATK +N% sur tous les alliés,Bonus MATK (alliés)
+130144002,incarnation,Recollection Field (feu) +N,Recollection Field +2
+130144003,competence_2,Inflige des dégâts continus de lumière,Dégâts continus
+130144003,incarnation,Recollection Field (lumière) +N,Recollection Field +2
+130144004,competence_1,Inflige des dégâts continus de feu,Dégâts continus
+130144004,competence_2,Recollection Field (feu) +N,Recollection Field +1
+130144004,competence_3,Résistance physique +N% sur tous les alliés,Bonus résistance physique (alliés)
+130144005,competence_3,MATK +N% sur tous les alliés,Bonus MATK (alliés)
+130144006,competence_1,MATK -N%,Malus MATK
+130144006,competence_2,Augmentation des dégâts de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130144006,competence_3,"De plus, DEF et MDEF -N% si l'ennemi est d'élément lumière",Malus DEF et MDEF (ennemi d'un élément)
+130144006,competence_3,Résistances physique et magique -N% sur un ennemi,Malus résistance magique
+130144006,competence_3,Résistances physique et magique -N% sur un ennemi,Malus résistance physique
+130144006,incarnation,Augmentation des dégâts de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130144006,incarnation,Résistance physique -N%,Malus résistance physique
+130144007,competence_1,Inflige des dégâts continus d'eau,Dégâts continus
+130144007,competence_2,Augmentation des dégâts de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130144008,competence_1,Résistance physique -N%,Malus résistance physique
+130144008,competence_2,Augmentation de la capacité à briser la Volonté de l'ennemi subissant des dégâts continus,Break de Volonté + : ennemi en dégâts continus
+130144008,competence_3,Inflige des dégâts continus de feu,Dégâts continus
+130144009,competence_1,Recollection Field (lumière) +N,Recollection Field +1
+130144009,competence_2,Augmentation des dégâts de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130144009,incarnation,Augmentation des dégâts de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130144009,incarnation,Recollection Field spécial (lumière) +N : augmentation de la Charge de l'élément lumière en fonction du niveau,Recollection Field spécial +3
+130144010,competence_1,Recollection Field (feu) +N,Recollection Field +1
+130144010,competence_2,Dégâts critiques de tous les alliés +N%,Bonus dégâts critiques (alliés)
+130144010,incarnation,Augmentation des dégâts quand Recollection Field (feu) est de N ou plus,Dégâts + : Recollection Field atteint un seuil
+130144010,incarnation,Et attaque tranchante supplémentaire sur un ennemi,Attaque supplémentaire
+130144011,competence_1,Réduit de N% le Break de Volonté de l'ennemi,Réduction du Break ennemi
+130144011,competence_2,Attaque tranchante sur un ennemi. N% de dégâts de HP maximum sur soi-même,Attaque avec coût en HP
+130144011,competence_3,Multiplie la Charge de Volonté par N sur soi-même,Multiplication Charge/Break (soi)
+130144011,incarnation,Résistance physique -N% sur l'ennemi,Malus résistance physique
+130144012,competence_1,Recollection Field (neutre) +N,Recollection Field +1
+130144012,competence_3,Augmentation de la Charge de Volonté quand Recollection Field (neutre) est de N ou plus,Charge de Volonté + : Recollection Field atteint un seuil
+130144012,incarnation,Recollection Field spécial (neutre) +N : augmentation de la charge de l'élément neutre en fonction du niveau de la jauge quand la Volonté de l'équipe est de N% ou moins,Recollection Field spécial +3
+130144013,competence_1,Attaque tranchante sur un ennemi en augmentant de N% l'ATK sur soi-même,Bonus ATK (soi-même)
+130144013,competence_2,Attaque tranchante sur un ennemi en augmentant de N% l'ATK sur soi-même,Bonus ATK (soi-même)
+130144013,competence_2,Recollection Field (ténèbres) +N,Recollection Field +1
+130144013,competence_3,Attaque tranchante sur un ennemi en augmentant de N% l'ATK sur soi-même,Bonus ATK (soi-même)
+130144013,competence_3,Recollection Field (ténèbres) +N,Recollection Field +1
+130144013,incarnation,Attaque tranchante de Volonté sur un ennemi en augmentant l'ATK de N% sur soi-même,Bonus ATK (soi-même)
+130144013,incarnation,Résistance physique -N%,Malus résistance physique
+130144014,competence_1,Attaque magique sur un ennemi en augmentant de N% la MATK sur soi-même,Bonus MATK (soi-même)
+130144014,competence_2,Attaque magique sur un ennemi en augmentant de N% la MATK sur soi-même,Bonus MATK (soi-même)
+130144014,competence_3,MATK +N% sur soi-même,Bonus MATK (soi-même)
+130144014,incarnation,"Augmentation des dégâts de N% lorsque le bonus de MATK sur soi-même est de N% ou plus, et augmentation supplémentaire des dégâts de N% lorsque le même bonus est de N% ou plus",Dégâts + : bonus d'ATK ou de critique atteint un seuil
+130144015,competence_1,Résistance physique +N%,Bonus résistance physique (cible non précisée)
+130144015,competence_2,Inflige des dégâts continus de vent,Dégâts continus
+130144015,competence_3,Recollection Field (vent) +N,Recollection Field +1
+130144015,incarnation,Augmentation des dégâts de N% de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130144015,incarnation,Augmentation des dégâts de N% quand Recollection Field (vent) est de N ou plus,Dégâts + : Recollection Field atteint un seuil
+130144016,competence_1,ATK -N%,Malus ATK
+130144016,competence_2,Résistance physique +N% sur tous les alliés,Bonus résistance physique (alliés)
+130144016,competence_3,Recollection Field (ténèbres) +N,Recollection Field +1
+130144017,competence_1,Réduit de N% le Break de Volonté de l'ennemi,Réduction du Break ennemi
+130144017,competence_2,ATK -N%,Malus ATK
+130144017,competence_3,ATK +N% sur soi-même,Bonus ATK (soi-même)
+130144017,incarnation,Augmentation des dégâts de N% lorsque la Volonté de l'ennemi est de N% ou plus,Dégâts + : Volonté ennemie au-dessus d'un seuil
+130144019,competence_1,Résistance physique -N%,Malus résistance physique
+130144019,competence_2,Augmentation des dégâts de N% de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130144019,competence_3,ATK et dégâts critiques +N% sur soi-même,Bonus ATK (soi-même)
+130144019,competence_3,ATK et dégâts critiques +N% sur soi-même,Bonus dégâts critiques (soi-même)
+130144019,incarnation,"Augmentation des dégâts de N% lorsque le bonus d'ATK sur soi-même est de N% ou plus, et augmentation supplémentaire des dégâts de N% lorsque le même bonus est de N% ou plus",Dégâts + : bonus d'ATK ou de critique atteint un seuil
+130144020,competence_1,Résistance physique -N%,Malus résistance physique
+130144020,competence_2,Augmentation des dégâts de N% de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130144020,competence_3,Dégâts critiques +N% sur tous les alliés,Bonus dégâts critiques (alliés)
+130144020,competence_3,Recollection Field (vent) +N,Recollection Field +1
+130144021,competence_1,Attaque tranchante sur un ennemi en augmentant de N% l'ATK sur soi-même,Bonus ATK (soi-même)
+130144021,competence_2,Attaque tranchante sur un ennemi en augmentant de N% l'ATK sur soi-même,Bonus ATK (soi-même)
+130144021,competence_3,ATK +N% sur soi-même,Bonus ATK (soi-même)
+130144022,competence_1,Réduit de N% le Break de Volonté de l'ennemi,Réduction du Break ennemi
+130144022,competence_2,"Augmentation des dégâts de N% lorsque le bonus de dégâts critiques est de N% ou plus, et augmentation supplémentaire des dégâts de N% lorsque le même bonus est de N% ou plus",Dégâts + : bonus d'ATK ou de critique atteint un seuil
+130144022,competence_3,Augmentation de N% des dégâts critiques pour soi-même,Bonus dégâts critiques (soi-même)
+130144022,competence_3,Recollection Field (neutre) +N,Recollection Field +1
+130144022,incarnation,"Augmentation des dégâts de N% lorsque le bonus de dégâts critiques sur soi-même est de N% ou plus, et augmentation supplémentaire des dégâts de N% lorsque le même bonus est de N% ou plus",Dégâts + : bonus d'ATK ou de critique atteint un seuil
+130144022,incarnation,Recollection Field (neutre) +N,Recollection Field +2
+130164006,competence_1,Résistance physique -N%,Malus résistance physique
+130164006,competence_3,Inflige une contre-attaque après avoir reçu soi-même une attaque physique d'élément neutre,Contre-attaque
+130164006,competence_3,Résistance physique +N% sur tous les alliés,Bonus résistance physique (alliés)
+130164006,incarnation,Augmentation des dégâts de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130214001,competence_1,Inflige des dégâts continus de ténèbres,Dégâts continus
+130214001,competence_2,Augmentation des dégâts de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130214001,competence_3,Recollection Field (ténèbres) +N,Recollection Field +1
+130214001,incarnation,Recollection Field spécial (ténèbres) +N,Recollection Field spécial +3
+130214002,competence_1,Résistance physique -N%,Malus résistance physique
+130214002,competence_2,Augmentation des dégâts de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130214002,competence_3,ATK +N% sur tous les alliés,Bonus ATK (alliés)
+130214002,competence_3,Recollection Field (lumière) +N,Recollection Field +1
+130214003,competence_1,Résistance physique -N%,Malus résistance physique
+130214003,competence_2,Augmentation des dégâts de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130214003,competence_3,Augmentation des dégâts quand Recollection Field (terre) est de N ou plus,Dégâts + : Recollection Field atteint un seuil
+130214003,incarnation,Augmentation des dégâts de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130214003,incarnation,Et attaque tranchante supplémentaire sur tous les ennemis,Attaque supplémentaire
+130214004,competence_1,Réduit de N% la Charge de Volonté de l'ennemi,Réduction de la Charge ennemie
+130214004,competence_2,Résistance physique -N%,Malus résistance physique
+130214004,competence_3,Multiplie sa capacité à briser la Volonté de l'ennemi par N,Multiplication Charge/Break (soi)
+130214004,incarnation,Augmentation des dégâts lorsque la Volonté de l'ennemi dépasse N%,Dégâts + : Volonté ennemie au-dessus d'un seuil
+130214005,competence_1,Résistance physique -N%,Malus résistance physique
+130214005,competence_2,Augmentation des dégâts quand Recollection Field (neutre) est de N ou plus,Dégâts + : Recollection Field atteint un seuil
+130214005,competence_3,Recollection Field (neutre) +N,Recollection Field +1
+130214006,competence_1,Résistance physique -N%,Malus résistance physique
+130214006,competence_2,"ATK +N% sur tous les alliés, arrière-garde comprise",Bonus ATK (alliés)
+130214006,competence_3,Multiplie sa Charge de Volonté par N,Multiplication Charge/Break (soi)
+130214006,incarnation,Résistance physique -N% sur l'ennemi,Malus résistance physique
+130214007,competence_1,MATK +N% sur tous les alliés,Bonus MATK (alliés)
+130214007,competence_1,Recollection Field (feu) +N,Recollection Field +1
+130214007,competence_2,Dégâts critiques +N% sur tous les alliés,Bonus dégâts critiques (alliés)
+130214007,competence_3,Dégâts critiques +N%,Bonus dégâts critiques (cible non précisée)
+130214007,competence_3,MATK +N% sur tous les alliés,Bonus MATK (alliés)
+130214007,competence_3,Résistance magique +N%,Bonus résistance magique (cible non précisée)
+130214007,incarnation,Augmentation des dégâts de N% quand Recollection Field (feu) est de N ou plus,Dégâts + : Recollection Field atteint un seuil
+130214007,incarnation,MATK +N% sur tous les alliés,Bonus MATK (alliés)
+130214008,competence_1,Augmentation de la Charge de Volonté face à l'ennemi subissant des dégâts continus,Charge de Volonté + : ennemi en dégâts continus
+130214008,competence_1,Résistance physique -N%,Malus résistance physique
+130214008,competence_2,Augmentation des dégâts de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130214009,competence_1,Augmentation du Break de Volonté de N% quand Recollection Field (lumière) est de N ou plus,Break de Volonté + : Recollection Field atteint un seuil
+130214009,competence_2,Augmentation des dégâts de N% lors d'un lien de compétences,Dégâts + : lien de compétences
+130214009,competence_3,Multiplie le Break de Volonté par N sur soi-même,Multiplication Charge/Break (soi)
+130214010,competence_1,Attaque tranchante sur un ennemi en augmentant de N% l'ATK sur soi-même et les dégâts critiques,Bonus ATK (soi-même)
+130214010,competence_1,Attaque tranchante sur un ennemi en augmentant de N% l'ATK sur soi-même et les dégâts critiques,Bonus dégâts critiques (soi-même)
+130214010,competence_2,"Augmentation des dégâts de N% lorsque le bonus d'ATK sur soi-même est de N% ou plus, et augmentation supplémentaire des dégâts de N% lorsque le même bonus est de N% ou plus",Dégâts + : bonus d'ATK ou de critique atteint un seuil
+130214010,competence_2,"Augmentation des dégâts de N% lorsque le bonus de dégâts critiques est de N% ou plus, et augmentation supplémentaire des dégâts de N% lorsque le même bonus est de N% ou plus",Dégâts + : bonus d'ATK ou de critique atteint un seuil
+130214010,competence_3,Attaque tranchante sur un ennemi en augmentant de N% l'ATK sur soi-même et les dégâts critiques,Bonus ATK (soi-même)
+130214010,competence_3,Attaque tranchante sur un ennemi en augmentant de N% l'ATK sur soi-même et les dégâts critiques,Bonus dégâts critiques (soi-même)
+130214010,incarnation,"Augmentation des dégâts de N% lorsque le bonus d'ATK sur soi-même est de N% ou plus, et augmentation supplémentaire des dégâts de N% lorsque le même bonus est de N% ou plus",Dégâts + : bonus d'ATK ou de critique atteint un seuil
+130214010,incarnation,"Augmentation des dégâts de N% lorsque le bonus de dégâts critiques est de N% ou plus, et augmentation supplémentaire des dégâts de N% lorsque le même bonus est de N% ou plus",Dégâts + : bonus d'ATK ou de critique atteint un seuil
+130214011,competence_1,Résistance à l'élément lumière -N%,Malus résistance d'élément
+130214011,competence_2,Dégâts critiques de tous les alliés +N%,Bonus dégâts critiques (alliés)
+130214011,competence_3,Recollection Field (lumière) +N,Recollection Field +1
+130214011,incarnation,Augmentation des dégâts de N% de l'ennemi subissant un malus de résistance d'élément,Dégâts + : ennemi avec malus de résistance d'élément
+130224001,competence_1,Augmentation des dégâts quand Recollection Field (terre) est de N ou plus,Dégâts + : Recollection Field atteint un seuil
+130224001,competence_1,Résistance physique -N%,Malus résistance physique
+130224001,competence_2,Augmentation des dégâts de l'ennemi subissant un malus de résistance physique,Dégâts + : ennemi avec malus de résistance physique
+130224001,competence_2,Augmentation des dégâts quand Recollection Field (terre) est de N ou plus,Dégâts + : Recollection Field atteint un seuil
+130224001,competence_3,Recollection Field (terre) +N,Recollection Field +1
+130224001,incarnation,Et attaque tranchante supplémentaire sur un ennemi,Attaque supplémentaire
+130224001,incarnation,Résistance physique -N%,Malus résistance physique
+130324001,competence_1,Recollection Field (neutre) +N,Recollection Field +1
+130324001,competence_3,ATK +N% sur tous les alliés,Bonus ATK (alliés)
+130324002,competence_2,Résistance magique sur tous les alliés +N%,Bonus résistance magique (alliés)
+130324002,competence_3,MATK +N%,Bonus MATK (cible non précisée)
+130324003,competence_1,Inflige des dégâts continus de lumière,Dégâts continus
+130324003,competence_2,Recollection Field (lumière) +N,Recollection Field +1
+130324003,competence_2,Résistance physique -N%,Malus résistance physique
+130324003,competence_3,ATK -N%,Malus ATK
+130324003,incarnation,Inflige des dégâts continus de lumière,Dégâts continus
+130324004,competence_2,Recollection Field (vent) +N,Recollection Field +1
+130324004,competence_3,MATK +N%,Bonus MATK (cible non précisée)
+130324005,competence_1,Résistance physique des alliés d'élément neutre +N%,Bonus résistance physique (alliés)
+130324007,competence_3,ATK +N% sur tous les alliés,Bonus ATK (alliés)
+130324007,incarnation,Résistance physique -N% sur l'ennemi,Malus résistance physique
+130324008,competence_1,Résistance magique des alliés d'élément eau +N%,Bonus résistance magique (alliés)
+130324008,competence_2,Augmentation des dégâts de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130324008,incarnation,Inflige des dégâts continus d'eau,Dégâts continus
+130324009,competence_1,Augmentation de la capacité à briser la Volonté de l'ennemi subissant des dégâts continus,Break de Volonté + : ennemi en dégâts continus
+130324009,competence_2,Augmentation de la Charge de Volonté face à l'ennemi subissant des dégâts continus,Charge de Volonté + : ennemi en dégâts continus
+130324009,competence_3,Résistance physique +N% sur tous les alliés,Bonus résistance physique (alliés)
+130324009,incarnation,Inflige des dégâts continus de lumière,Dégâts continus
+130324009,incarnation,Recollection Field (lumière) +N,Recollection Field +2
+130324010,competence_1,Résistance magique -N%,Malus résistance magique
+130324010,competence_2,Dégâts critiques de tous les alliés +N%,Bonus dégâts critiques (alliés)
+130324010,competence_3,Guérit l'évanouissement,Guérison / soin de statut
+130324010,competence_3,Résistance magique +N%,Bonus résistance magique (cible non précisée)
+130324010,incarnation,Résistance magique -N% sur l'ennemi,Malus résistance magique
+130324011,competence_1,Augmentation de la Charge de Volonté face à l'ennemi subissant un malus de résistance physique ou magique,Charge de Volonté + : ennemi avec malus de résistance physique ou magique
+130324011,competence_2,Résistance magique sur tous les alliés +N%,Bonus résistance magique (alliés)
+130324011,competence_3,"De plus, DEF et MDEF -N% si l'ennemi est d'élément lumière",Malus DEF et MDEF (ennemi d'un élément)
+130324011,competence_3,Résistances physique et magique -N% sur un ennemi,Malus résistance magique
+130324011,competence_3,Résistances physique et magique -N% sur un ennemi,Malus résistance physique
+130324011,incarnation,Augmentation des dégâts de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130324011,incarnation,Résistance magique -N%,Malus résistance magique
+130324012,competence_1,Inflige des dégâts continus de feu,Dégâts continus
+130324012,competence_2,Augmentation des dégâts de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130324012,competence_3,ATK +N% sur soi-même,Bonus ATK (soi-même)
+130324012,incarnation,Résistance physique -N% sur l'ennemi,Malus résistance physique
+130324013,competence_3,ATK +N% sur soi-même,Bonus ATK (soi-même)
+130324013,incarnation,ATK +N% sur tous les alliés,Bonus ATK (alliés)
+130324014,competence_1,Résistance physique -N%,Malus résistance physique
+130324014,competence_2,Augmentation des dégâts de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130324014,competence_3,Recollection Field (vent) +N,Recollection Field +1
+130324014,incarnation,MP -N% pour l'élément vent,Malus MP selon l'élément
+130324014,incarnation,Recollection Field spécial (vent) +N : conso,Recollection Field spécial +3
+130324015,competence_1,Inflige des dégâts continus de lumière,Dégâts continus
+130324015,competence_2,Augmentation des dégâts de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130324015,competence_2,Augmentation des dégâts de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130324015,competence_3,ATK -N%,Malus ATK
+130324015,competence_3,Recollection Field (lumière) +N,Recollection Field +1
+130324015,incarnation,ATK -N%,Malus ATK
+130324015,incarnation,Résistance physique -N%,Malus résistance physique
+130324017,competence_1,Recollection Field (vent) +N,Recollection Field +1
+130324017,competence_2,Augmentation des dégâts quand Recollection Field (vent) est de N ou plus,Dégâts + : Recollection Field atteint un seuil
+130324017,competence_3,Recollection Field (vent) +N,Recollection Field +1
+130324017,incarnation,Augmentation des dégâts quand Recollection Field (vent) est de N ou plus,Dégâts + : Recollection Field atteint un seuil
+130324018,competence_2,Recollection Field (terre) +N,Recollection Field +1
+130324018,competence_3,Dégâts critiques +N%,Bonus dégâts critiques (cible non précisée)
+130324018,incarnation,Dégâts critiques +N%,Bonus dégâts critiques (cible non précisée)
+130324018,incarnation,Résistance physique de tous les alliés +N%,Bonus résistance physique (alliés)
+130324019,competence_2,Augmentation des dégâts quand Recollection Field (neutre) est de N ou plus,Dégâts + : Recollection Field atteint un seuil
+130324019,competence_3,Recollection Field (neutre) +N,Recollection Field +1
+130324019,incarnation,Augmentation des dégâts quand Recollection Field (neutre) est de N ou plus,Dégâts + : Recollection Field atteint un seuil
+130324020,competence_1,Résistance magique -N%,Malus résistance magique
+130324020,competence_2,Augmentation des dégâts de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130324020,competence_3,ATK -N% sur tous les ennemis,Malus ATK
+130324020,incarnation,"Résistance physique +N% sur tous les alliés, arrière-garde comprise",Bonus résistance physique (alliés)
+130324021,competence_1,Inflige des dégâts continus de terre,Dégâts continus
+130324021,competence_2,Augmentation des dégâts de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130324021,competence_2,Recollection Field (terre) +N,Recollection Field +1
+130324021,competence_3,Augmentation des dégâts de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130324021,incarnation,Augmentation des dégâts de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130324022,competence_1,Résistance magique -N%,Malus résistance magique
+130324022,competence_2,Augmentation des dégâts de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130324022,competence_3,MATK +N% sur soi-même,Bonus MATK (soi-même)
+130324022,incarnation,Augmentation des dégâts de N% de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130324022,incarnation,Dégâts critiques +N% sur tous les alliés,Bonus dégâts critiques (alliés)
+130324023,competence_1,Dégâts critiques +N% sur tous les alliés,Bonus dégâts critiques (alliés)
+130324023,competence_2,Dégâts critiques +N% sur tous les alliés,Bonus dégâts critiques (alliés)
+130324023,competence_3,Dégâts critiques +N% sur tous les alliés,Bonus dégâts critiques (alliés)
+130324023,competence_3,Recollection Field (ténèbres) +N,Recollection Field +1
+130324023,incarnation,Augmentation des dégâts de N% de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130324023,incarnation,Augmentation des dégâts de N% de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130324024,competence_1,Réduit la Charge de Volonté de l'ennemi de N%,Réduction de la Charge ennemie
+130324024,competence_2,Résistance magique -N%,Malus résistance magique
+130324024,competence_3,MATK +N% sur soi-même,Bonus MATK (soi-même)
+130324024,incarnation,Augmentation des dégâts de N% lorsque la Volonté de l'ennemi est de N% ou plus,Dégâts + : Volonté ennemie au-dessus d'un seuil
+130324025,competence_1,Augmentation de N% des dégâts critiques sur tous les alliés,Bonus dégâts critiques (alliés)
+130324025,competence_1,Réduit de N% le Break de Volonté de l'ennemi,Réduction du Break ennemi
+130324025,competence_2,ATK +N% sur tous les alliés,Bonus ATK (alliés)
+130324025,competence_3,Recollection Field (neutre) +N,Recollection Field +1
+130324025,competence_3,Résistance physique +N% sur tous les alliés,Bonus résistance physique (alliés)
+130324025,incarnation,"Augmentation des dégâts de N% lorsque le bonus de dégâts critiques sur soi-même est de N% ou plus, et augmentation supplémentaire des dégâts de N% lorsque le même bonus est de N% ou plus",Dégâts + : bonus d'ATK ou de critique atteint un seuil
+130324025,incarnation,"Augmente les dégâts critiques de N% sur tous les alliés, et attaque perçante de Volonté sur un ennemi",Bonus dégâts critiques (alliés)
+130324026,competence_1,Augmentation de la Charge de Volonté de N% quand Recollection Field (feu) est de N ou plus,Charge de Volonté + : Recollection Field atteint un seuil
+130324026,competence_2,Multiplie la Charge de Volonté par N sur soi-même,Multiplication Charge/Break (soi)
+130324026,competence_3,Inflige des dégâts continus de feu,Dégâts continus
+130324026,competence_3,Recollection Field (feu) +N,Recollection Field +1
+130324026,incarnation,Recollection Field spécial (feu) +N : augmentation de la Charge de l'élément feu en fonction du niveau de la jauge quand la Volonté de l'équipe est de N% ou moins,Recollection Field spécial +3
+130324027,competence_1,Augmentation du Break de Volonté quand Recollection Field (ténèbres) est de N ou plus,Break de Volonté + : Recollection Field atteint un seuil
+130324027,competence_2,Augmentation des dégâts de N% de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130324027,competence_2,Augmentation des dégâts de N% de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130324027,competence_3,Inflige des dégâts continus de ténèbres,Dégâts continus
+130324027,competence_3,Résistance physique -N%,Malus résistance physique
+130324027,incarnation,Recollection Field spécial (ténèbres) +N : augmentation de la Charge de l'élément ténèbres en fonction du niveau de la jauge quand la Volonté de l'équipe est de N% ou moins,Recollection Field spécial +3
+130324028,competence_1,Attaque perçante sur un ennemi en augmentant de N% l'ATK sur soi-même,Bonus ATK (soi-même)
+130324028,competence_2,Attaque perçante sur un ennemi en augmentant de N% l'ATK sur soi-même,Bonus ATK (soi-même)
+130324028,competence_3,Résistance physique -N% sur tous les ennemis,Malus résistance physique
+130324028,incarnation,Augmentation des dégâts de N% de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130324029,competence_1,Réduit de N% le Break de Volonté de l'ennemi,Réduction du Break ennemi
+130324029,competence_2,Augmentation des dégâts de N% de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130324029,competence_2,Augmentation des dégâts de N% quand Recollection Field (feu) est de N ou plus,Dégâts + : Recollection Field atteint un seuil
+130324029,competence_3,ATK +N% sur soi-même,Bonus ATK (soi-même)
+130324030,competence_1,Réduit la Charge de Volonté de l'ennemi de N%,Réduction de la Charge ennemie
+130324030,competence_2,"ATK +N% sur tous les alliés, arrière-garde comprise",Bonus ATK (alliés)
+130324030,competence_3,Recollection Field (feu) +N,Recollection Field +1
+130324030,incarnation,"Augmentation des dégâts de N% lorsque le bonus d'ATK sur soi-même est de N% ou plus, et augmentation supplémentaire des dégâts de N% lorsque le même bonus est de N% ou plus",Dégâts + : bonus d'ATK ou de critique atteint un seuil
+130324030,incarnation,Et attaque tranchante supplémentaire sur un ennemi,Attaque supplémentaire
+130324031,competence_1,Augmentation de la Charge de Volonté de N% quand Recollection Field (lumière) est de N ou plus,Charge de Volonté + : Recollection Field atteint un seuil
+130324031,competence_2,Augmentation des dégâts de N% lors d'un lien de compétences,Dégâts + : lien de compétences
+130324031,competence_3,Multiplie la Charge de Volonté par N sur soi-même,Multiplication Charge/Break (soi)
+130324032,competence_2,Provoque l'ennemi,Provocation
+130324032,competence_3,ATK +N% sur soi-même,Bonus ATK (soi-même)
+130324032,competence_3,Inflige une contre-attaque après avoir reçu soi-même une attaque physique,Contre-attaque
+130324032,competence_3,Résistance physique +N%,Bonus résistance physique (cible non précisée)
+130324033,competence_1,Augmentation de la Charge de Volonté de N% quand Recollection Field (vent) est de N ou plus,Charge de Volonté + : Recollection Field atteint un seuil
+130324033,competence_2,Augmentation des dégâts de N% quand Recollection Field (vent) est de N ou plus,Dégâts + : Recollection Field atteint un seuil
+130324033,competence_3,Recollection Field (vent) +N,Recollection Field +1
+130324033,competence_3,Résistance physique +N% sur tous les alliés,Bonus résistance physique (alliés)
+130324033,incarnation,Recollection Field spécial (vent) +N : MATK du perso. d'élément vent +N% à chaque tour,Recollection Field spécial +3
+130324034,competence_1,ATK -N%,Malus ATK
+130324034,competence_2,Résistance physique +N% sur tous les alliés,Bonus résistance physique (alliés)
+130324034,competence_3,Recollection Field (neutre) +N,Recollection Field +1
+130324034,incarnation,Recollection Field spécial (neutre) +N : soins HP du perso. d'élément neutre à chaque tour,Recollection Field spécial +3
+130324035,competence_1,Inflige des dégâts continus cumulés,Dégâts continus
+130324035,competence_2,Augmentation des dégâts en fonction du nombre de dégâts infligés sur l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130324035,competence_3,Inflige des dégâts continus cumulés,Dégâts continus
+130324035,incarnation,Augmentation des dégâts en fonction du nombre de dégâts infligés sur l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130324036,competence_1,Recollection Field (Ténèbres) +N,Recollection Field +1
+130324036,competence_2,Résistance physique +N% sur tous les alliés,Bonus résistance physique (alliés)
+130324036,competence_3,Dégâts critiques +N%,Bonus dégâts critiques (cible non précisée)
+130324036,competence_3,MATK +N% sur tous les alliés,Bonus MATK (alliés)
+130324036,incarnation,"Augmentation des dégâts de N% lorsque le bonus de MATK sur soi-même est de N% ou plus, et augmentation supplémentaire des dégâts de N% lorsque le même bonus est de N% ou plus",Dégâts + : bonus d'ATK ou de critique atteint un seuil
+130324036,incarnation,"Augmentation des dégâts de N% lorsque le bonus de dégâts critiques est de N% ou plus, et augmentation supplémentaire des dégâts de N% lorsque le même bonus est de N% ou plus",Dégâts + : bonus d'ATK ou de critique atteint un seuil
+130324037,competence_1,Provoque l'ennemi,Provocation
+130324037,competence_3,"Inflige une contre-attaque après avoir reçu soi-même une attaque physique : Lors d'une contre-attaque, attaque perçante sur un ennemi",Contre-attaque
+130324037,competence_3,Résistance d'élément vent sur soi-même +N%,Bonus résistance d'élément (soi-même)
+130324037,competence_3,Résistance à l'élément feu -N%,Malus résistance d'élément
+130324037,incarnation,Augmentation des dégâts de N% de l'ennemi subissant un malus de résistance d'élément,Dégâts + : ennemi avec malus de résistance d'élément
+130344001,competence_1,ATK -N%,Malus ATK
+130344001,competence_3,Guérison,Guérison / soin de statut
+130344002,competence_1,Réduit de N% le Break de Volonté de l'ennemi,Réduction du Break ennemi
+130344002,competence_2,Inflige des dégâts continus de lumière,Dégâts continus
+130344002,competence_3,Et attaque magique supplémentaire sur un ennemi (total sur un ennemi : énorme),Attaque supplémentaire
+130344003,competence_3,Guérit l'évanouissement,Guérison / soin de statut
+130344005,competence_1,Augmentation du Break de Volonté face à l'ennemi subissant un malus de résistance physique ou magique,Break de Volonté + : ennemi avec malus de résistance physique ou magique
+130344005,competence_2,Inflige des dégâts continus de vent,Dégâts continus
+130344005,competence_3,"De plus, DEF et MDEF -N% si l'ennemi est d'élément terre",Malus DEF et MDEF (ennemi d'un élément)
+130344005,competence_3,Résistances physique et magique -N% sur un ennemi,Malus résistance magique
+130344005,competence_3,Résistances physique et magique -N% sur un ennemi,Malus résistance physique
+130344005,incarnation,Et attaque magique supplémentaire sur un ennemi,Attaque supplémentaire
+130344006,competence_1,Inflige des dégâts continus d'eau,Dégâts continus
+130344006,competence_2,Augmentation des dégâts de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130344006,incarnation,MATK +N% sur tous les alliés,Bonus MATK (alliés)
+130344007,incarnation,Recollection Field (neutre) +N,Recollection Field +3
+130344008,competence_2,Recollection Field (vent) +N,Recollection Field +1
+130344008,competence_3,Dégâts critiques de tous les alliés +N%,Bonus dégâts critiques (alliés)
+130344008,incarnation,Recollection Field (vent) +N,Recollection Field +1
+130344009,competence_1,Augmentation de la Charge de Volonté face à l'ennemi subissant des dégâts continus,Charge de Volonté + : ennemi en dégâts continus
+130344009,competence_1,Résistance physique -N%,Malus résistance physique
+130344009,competence_2,Augmentation des dégâts de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130344009,competence_2,Recollection Field (neutre) +N,Recollection Field +1
+130344009,competence_3,Inflige des dégâts continus neutres,Dégâts continus
+130344009,incarnation,Augmentation des dégâts de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130344009,incarnation,Augmentation des dégâts quand Recollection Field (neutre) est de N ou plus,Dégâts + : Recollection Field atteint un seuil
+130344009,incarnation,Recollection Field (neutre) +N,Recollection Field +1
+130344010,competence_1,Réduit de N% le Break de Volonté de l'ennemi,Réduction du Break ennemi
+130344010,competence_2,Augmentation des dégâts de N% de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130344010,competence_3,"En contrepartie, sa résistance magique diminue de N%",Malus en contrepartie
+130344010,competence_3,Taux d'esquive physique +N% sur soi-même,Bonus esquive (soi-même)
+130344010,incarnation,Augmentation des dégâts de N% de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130344011,competence_1,Résistance physique +N% sur tous les alliés,Bonus résistance physique (alliés)
+130344011,competence_2,MATK +N% sur tous les alliés,Bonus MATK (alliés)
+130344011,competence_3,Recollection Field (terre) +N,Recollection Field +1
+130344011,incarnation,Recollection Field spécial (terre) +N : MATK de l'élément terre +N%,Recollection Field spécial +3
+130344012,competence_1,Réduit de N% le Break de Volonté de l'ennemi et de N% la résistance à l'élément eau,Malus résistance d'élément
+130344012,competence_1,Réduit de N% le Break de Volonté de l'ennemi et de N% la résistance à l'élément eau,Réduction du Break ennemi
+130344012,competence_2,Augmentation des dégâts de N% de l'ennemi subissant un malus de résistance d'élément,Dégâts + : ennemi avec malus de résistance d'élément
+130344012,competence_3,Augmentation des dégâts de N% de l'ennemi subissant un malus de résistance d'élément,Dégâts + : ennemi avec malus de résistance d'élément
+130344012,incarnation,Augmentation des dégâts de N% de l'ennemi subissant un malus de résistance d'élément,Dégâts + : ennemi avec malus de résistance d'élément
+130454003,competence_1,Résistance physique des alliés d'élément terre +N%,Bonus résistance physique (alliés)
+130454003,competence_2,Recollection Field (terre) +N,Recollection Field +1
+130454004,competence_1,ATK -N%,Malus ATK
+130454004,competence_2,Recollection Field (terre) +N,Recollection Field +1
+130454004,competence_2,Résistance physique -N%,Malus résistance physique
+130454004,competence_3,Résistance physique -N% et résistance magique -N% face à l'ennemi d'élément eau,Malus résistance magique
+130454004,competence_3,Résistance physique -N% et résistance magique -N% face à l'ennemi d'élément eau,Malus résistance physique
+130454004,incarnation,Résistance physique -N% sur l'ennemi,Malus résistance physique
+130454005,competence_3,Résistance physique +N% sur tous les alliés,Bonus résistance physique (alliés)
+130454006,competence_1,ATK -N%,Malus ATK
+130454006,competence_3,Inflige des dégâts continus d'eau,Dégâts continus
+130454006,incarnation,Inflige des dégâts continus d'eau,Dégâts continus
+130454007,competence_2,Résistance physique -N%,Malus résistance physique
+130454007,competence_3,ATK +N% sur tous les alliés,Bonus ATK (alliés)
+130454008,competence_1,Résistance magique -N%,Malus résistance magique
+130454008,competence_2,Inflige des dégâts continus de vent,Dégâts continus
+130454008,competence_3,MATK +N%,Bonus MATK (cible non précisée)
+130454008,incarnation,Inflige des dégâts continus de vent,Dégâts continus
+130454009,competence_2,Inflige des dégâts continus de lumière,Dégâts continus
+130454009,competence_3,Augmentation des dégâts de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130454009,incarnation,Augmentation des dégâts de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130454010,competence_1,Inflige des dégâts continus d'eau,Dégâts continus
+130454010,competence_2,Augmentation des dégâts de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130454010,competence_3,MATK +N% sur tous les alliés,Bonus MATK (alliés)
+130454010,incarnation,Et attaque magique supplémentaire sur un ennemi,Attaque supplémentaire
+130454010,incarnation,Inflige des dégâts continus d'eau sur l'ennemi visé par l'attaque supplémentaire,Dégâts continus
+130454011,competence_1,ATK -N%,Malus ATK
+130454011,competence_3,Guérit des sceaux,Guérison / soin de statut
+130454011,incarnation,Restauration de MP sur tous les alliés,Restauration de MP (alliés)
+130454012,competence_1,ATK -N%,Malus ATK
+130454013,competence_1,Résistance magique -N%,Malus résistance magique
+130454013,competence_2,Recollection Field (feu) +N,Recollection Field +1
+130454013,incarnation,Augmentation des dégâts quand Recollection Field (feu) est de N ou plus,Dégâts + : Recollection Field atteint un seuil
+130454014,competence_1,ATK -N%,Malus ATK
+130454014,competence_2,ATK et MATK +N% sur tous les alliés,Bonus ATK (alliés)
+130454014,competence_2,ATK et MATK +N% sur tous les alliés,Bonus MATK (alliés)
+130454014,competence_3,Recollection Field (terre) +N,Recollection Field +1
+130454014,competence_3,"Résistances physique et magique +N% sur tous les alliés, arrière-garde comprise",Bonus résistance magique (alliés)
+130454014,competence_3,"Résistances physique et magique +N% sur tous les alliés, arrière-garde comprise",Bonus résistance physique (alliés)
+130454014,incarnation,ATK et MATK +N% sur tous les alliés,Bonus ATK (alliés)
+130454014,incarnation,ATK et MATK +N% sur tous les alliés,Bonus MATK (alliés)
+130454015,competence_1,Résistance physique +N%,Bonus résistance physique (cible non précisée)
+130454015,competence_2,Résistance magique -N%,Malus résistance magique
+130454015,competence_3,Résistance magique sur soi-même -N%,Malus en contrepartie
+130454015,incarnation,Augmentation des dégâts de N% de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130454016,competence_1,Résistance physique -N%,Malus résistance physique
+130454016,competence_2,Augmentation des dégâts de N% de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130454016,competence_3,Dégâts critiques +N% sur tous les alliés,Bonus dégâts critiques (alliés)
+130454016,competence_3,Recollection Field (ténèbres) +N,Recollection Field +1
+130464005,competence_1,Provoque l'ennemi,Provocation
+130464005,competence_3,ATK +N% sur un allié,Bonus ATK (alliés)
+130464005,competence_3,Résistance physique +N%,Bonus résistance physique (cible non précisée)
+130524001,competence_1,Résistance physique -N%,Malus résistance physique
+130524001,competence_2,Augmentation des dégâts de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130524001,competence_3,Taux d'esquive +N% sur soi-même,Bonus esquive (soi-même)
+130524001,incarnation,Augmentation des dégâts de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130524002,competence_1,Résistance magique -N%,Malus résistance magique
+130524002,competence_2,Réduit de N% le Break de Volonté de l'ennemi,Réduction du Break ennemi
+130524002,competence_3,Guérit l'évanouissement,Guérison / soin de statut
+130524002,incarnation,Résistance magique -N% sur l'ennemi,Malus résistance magique
+130524003,competence_1,Réduit de N% le Break de Volonté de l'ennemi,Réduction du Break ennemi
+130524003,competence_2,Provoque l'ennemi,Provocation
+130524003,competence_3,Taux d'esquive magique +N% sur soi-même,Bonus esquive (soi-même)
+130524003,incarnation,Augmentation des dégâts de N% quand Recollection Field (ténèbres) est de N ou plus,Dégâts + : Recollection Field atteint un seuil
+130524005,competence_2,Provoque l'ennemi,Provocation
+130524005,competence_3,Inflige une contre-attaque après avoir reçu soi-même une attaque physique,Contre-attaque
+130524005,competence_3,Résistance d'élément lumière sur soi-même +N%,Bonus résistance d'élément (soi-même)
+130624001,competence_1,Résistance physique -N%,Malus résistance physique
+130624001,competence_2,Recollection Field (neutre) +N,Recollection Field +1
+130624001,competence_3,ATK +N%,Bonus ATK (cible non précisée)
+130624002,competence_1,ATK -N%,Malus ATK
+130624002,competence_2,Augmentation des dégâts de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130624002,competence_3,Inflige des dégâts continus neutres,Dégâts continus
+130624002,incarnation,Inflige des dégâts continus neutres,Dégâts continus
+130624003,competence_1,Inflige des dégâts continus de vent,Dégâts continus
+130624003,competence_2,Augmentation des dégâts de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130624003,competence_3,ATK +N% sur tous les alliés,Bonus ATK (alliés)
+130624003,competence_3,Recollection Field (vent) +N,Recollection Field +1
+130624003,incarnation,Inflige des dégâts continus de vent,Dégâts continus
+130624003,incarnation,Recollection Field spécial (vent) +N : réduction des dégâts subis par l'élément terre,Recollection Field spécial +3
+130624004,competence_1,Résistance magique -N%,Malus résistance magique
+130624004,competence_2,Attaque magique sur un ennemi. N% de dégâts de HP maximum sur soi-même,Attaque avec coût en HP
+130624004,competence_3,ATK +N% et MATK +N% sur tous les alliés,Bonus ATK (alliés)
+130624004,competence_3,ATK +N% et MATK +N% sur tous les alliés,Bonus MATK (alliés)
+130624004,incarnation,Et attaque magique supplémentaire sur un ennemi,Attaque supplémentaire
+130624004,incarnation,Recollection Field (ténèbres) +N,Recollection Field +1
+130624005,competence_1,Recollection Field (terre) +N,Recollection Field +1
+130624005,competence_1,Résistance physique -N%,Malus résistance physique
+130624005,competence_2,ATK -N%,Malus ATK
+130624005,competence_2,Augmentation des dégâts quand Recollection Field (terre) est de N ou plus,Dégâts + : Recollection Field atteint un seuil
+130624005,competence_2,Charge de Volonté de l'ennemi -N%,Réduction de la Charge ennemie
+130624005,competence_3,ATK +N% sur tous les alliés,Bonus ATK (alliés)
+130624005,competence_3,Dégâts critiques +N%,Bonus dégâts critiques (cible non précisée)
+130624005,competence_3,Résistance physique +N%,Bonus résistance physique (cible non précisée)
+130624005,incarnation,Recollection Field spécial (terre) +N : augmentation de la Charge de l'élément terre en fonction du niveau de la jauge quand la Volonté de l'équipe est de N% ou moins,Recollection Field spécial +3
+130624006,competence_1,Réduit de N% le Break de Volonté de l'ennemi,Réduction du Break ennemi
+130624006,competence_2,Augmentation des dégâts de N% lors d'un lien de compétences,Dégâts + : lien de compétences
+130624006,competence_3,Recollection Field (terre) +N,Recollection Field +1
+130724001,competence_1,Taux de coup critique +N% sur soi-même,Bonus taux de critique (soi-même)
+130724001,competence_2,Et attaque perçante supplémentaire sur un ennemi (total sur un ennemi : énorme),Attaque supplémentaire
+130724001,competence_3,ATK +N% sur soi-même,Bonus ATK (soi-même)
+130724001,competence_3,Taux d'esquive +N%,Bonus esquive (cible non précisée)
+130724001,incarnation,Résistance physique -N% sur l'ennemi,Malus résistance physique
+130724002,competence_2,Et attaque perçante supplémentaire sur un ennemi (total sur un ennemi : énorme),Attaque supplémentaire
+130724003,competence_1,ATK -N%,Malus ATK
+130724003,competence_2,Dégâts critiques de tous les alliés +N%,Bonus dégâts critiques (alliés)
+130724003,competence_3,Guérit des sceaux,Guérison / soin de statut
+130724003,competence_3,Résistance physique +N%,Bonus résistance physique (cible non précisée)
+130724003,incarnation,Et attaque magique supplémentaire sur un ennemi,Attaque supplémentaire
+130724003,incarnation,Inflige des dégâts continus de terre sur l'ennemi visé par l'attaque supplémentaire,Dégâts continus
+130724004,competence_1,Inflige des dégâts continus de lumière,Dégâts continus
+130724004,competence_2,Augmentation des dégâts de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130724004,competence_3,Multiplie sa Charge de Volonté par N lorsque le mode Enhance est terminé,Multiplication Charge/Break (soi)
+130724004,incarnation,Augmentation des dégâts de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130724005,competence_1,Recollection Field (eau) +N,Recollection Field +1
+130724005,competence_2,Augmentation des dégâts de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+130724005,competence_3,Multiplie sa capacité à briser la Volonté de l'ennemi par N,Multiplication Charge/Break (soi)
+130724005,incarnation,Inflige des dégâts continus d'eau,Dégâts continus
+130724006,competence_1,Augmentation des dégâts à mesure que le nombre de cibles augmente,Dégâts + : nombre de cibles
+130724006,competence_2,Augmentation des dégâts à mesure que le nombre de cibles augmente,Dégâts + : nombre de cibles
+130724006,competence_3,MATK +N% sur soi-même,Bonus MATK (soi-même)
+130724006,incarnation,Augmentation des dégâts à mesure que le nombre de cibles augmente,Dégâts + : nombre de cibles
+130724007,competence_1,ATK -N%,Malus ATK
+130724007,competence_1,Réduit de N% le Break de Volonté de l'ennemi,Réduction du Break ennemi
+130724007,competence_2,Augmentation des dégâts de l'ennemi subissant des dégâts continus en fonction du nombre de dégâts infligés,Dégâts + : ennemi en dégâts continus
+130724007,competence_3,Inflige des dégâts continus cumulés,Dégâts continus
+130724007,competence_3,Recollection Field (feu) +N,Recollection Field +1
+130724007,incarnation,Augmentation des dégâts de l'ennemi subissant des dégâts continus en fonction du nombre de dégâts infligés,Dégâts + : ennemi en dégâts continus
+130724007,incarnation,Recollection Field spécial (feu) +N : Soins HP du perso. d'élément feu à chaque tour,Recollection Field spécial +3
+130724008,competence_1,Attaque magique sur un ennemi en augmentant de N% la MATK sur soi-même,Bonus MATK (soi-même)
+130724008,competence_2,Attaque magique sur un ennemi en augmentant de N% la MATK sur soi-même,Bonus MATK (soi-même)
+130724008,competence_3,MATK +N% sur soi-même,Bonus MATK (soi-même)
+130724008,incarnation,"Augmentation des dégâts de N% lorsque le bonus de MATK sur soi-même est de N% ou plus, et augmentation supplémentaire des dégâts de N% lorsque le même bonus est de N% ou plus",Dégâts + : bonus d'ATK ou de critique atteint un seuil
+130764006,competence_1,Attaque perçante sur tous les ennemis en augmentant de N% l'ATK sur soi-même et les dégâts critiques,Bonus ATK (soi-même)
+130764006,competence_1,Attaque perçante sur tous les ennemis en augmentant de N% l'ATK sur soi-même et les dégâts critiques,Bonus dégâts critiques (soi-même)
+130764006,competence_2,Attaque perçante sur un ennemi en augmentant de N% l'ATK sur soi-même et les dégâts critiques,Bonus ATK (soi-même)
+130764006,competence_2,Attaque perçante sur un ennemi en augmentant de N% l'ATK sur soi-même et les dégâts critiques,Bonus dégâts critiques (soi-même)
+130764006,competence_3,ATK et dégâts critiques +N% sur soi-même,Bonus ATK (soi-même)
+130764006,competence_3,ATK et dégâts critiques +N% sur soi-même,Bonus dégâts critiques (soi-même)
+130764006,incarnation,Augmentation des dégâts de N% de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+130764006,incarnation,Augmentation des dégâts de N% quand Recollection Field (feu) est de N ou plus,Dégâts + : Recollection Field atteint un seuil
+131214001,competence_1,Attaque de frappe sur un ennemi en augmentant de N% l'ATK sur soi-même,Bonus ATK (soi-même)
+131214001,competence_2,Attaque de frappe sur un ennemi en augmentant de N% l'ATK sur soi-même,Bonus ATK (soi-même)
+131214001,competence_3,Attaque de frappe sur un ennemi en augmentant de N% l'ATK sur soi-même,Bonus ATK (soi-même)
+131214001,incarnation,Résistance physique -N% sur l'ennemi,Malus résistance physique
+131214002,competence_1,Attaque de frappe sur un ennemi en augmentant de N% l'ATK sur soi-même,Bonus ATK (soi-même)
+131214002,competence_2,Attaque de frappe sur un ennemi en augmentant de N% l'ATK sur soi-même,Bonus ATK (soi-même)
+131214002,competence_3,Recollection Field (terre) +N,Recollection Field +1
+131214002,incarnation,Augmentation des dégâts de N% quand Recollection Field (terre) est de N ou plus,Dégâts + : Recollection Field atteint un seuil
+131214002,incarnation,Augmentation des dégâts de N% quand la Volonté de l'ennemi est de N% ou plus,Dégâts + : Volonté ennemie au-dessus d'un seuil
+131214003,competence_1,Inflige des dégâts continus cumulés,Dégâts continus
+131214003,competence_2,Augmentation des dégâts de N% de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+131214003,competence_2,Augmentation des dégâts de N% de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+131214003,competence_2,Recollection Field (neutre) +N,Recollection Field +1
+131214003,competence_3,Inflige des dégâts continus cumulés,Dégâts continus
+131214003,incarnation,Augmentation des dégâts de N% de l'ennemi subissant des dégâts continus,Dégâts + : ennemi en dégâts continus
+131214003,incarnation,Augmentation des dégâts de N% de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+131214004,competence_1,Attaque de frappe sur un ennemi en augmentant de N% l'ATK sur soi-même,Bonus ATK (soi-même)
+131214004,competence_1,Résistance physique -N%,Malus résistance physique
+131214004,competence_2,Attaque de frappe sur un ennemi en augmentant de N% l'ATK sur soi-même,Bonus ATK (soi-même)
+131214004,competence_2,Augmentation des dégâts de N% de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+131214004,competence_3,ATK +N% sur soi-même,Bonus ATK (soi-même)
+131214004,incarnation,Augmentation des dégâts de N% de l'ennemi subissant un malus de résistance physique ou magique,Dégâts + : ennemi avec malus de résistance physique ou magique
+131214004,incarnation,"Augmentation des dégâts de N% lorsque le bonus d'ATK sur soi-même est de N% ou plus, et augmentation supplémentaire des dégâts de N% lorsque le même bonus est de N% ou plus",Dégâts + : bonus d'ATK ou de critique atteint un seuil

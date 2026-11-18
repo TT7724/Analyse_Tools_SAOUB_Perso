@@ -1,255 +1,166 @@
 # Analyse_Tools_SAOUB_perso
 
-Analyse des personnages du jeu **SAOUB** et outil de **création de personnage** : on fixe des contraintes (stats, effets, rôles) et l'outil propose le reste de façon cohérente avec ce que font les développeurs, puis diagnostique le résultat.
-Réalisé avec l'IA
+Analyse des 218 personnages (rareté 4) du jeu SAOUB et **application web locale** pour :
 
-> Projet personnel, non officiel. Le fichier `data/personnages_fr.json` contient des données issues du jeu, fournies pour reproduire l'analyse.
+- **explorer** les persos avec des graphiques interactifs filtrables ;
+- **créer** de nouveaux persos (stats + kit d'effets) qui ressemblent à ce que font les développeurs ;
+- **vérifier** un perso imaginé ou reçu d'un ami ;
+- **inventer** des effets personnalisés.
+
+Projet personnel d'étudiant (4e année d'informatique), orienté data science. Dépôt : `<URL_DU_DEPOT>`.
+
+---
 
 ## Sommaire
 
-- [Objectif](#objectif)
-- [Ce que montre l'analyse](#ce-que-montre-lanalyse)
-- [Structure du dépôt](#structure-du-dépôt)
-- [Prérequis](#prérequis)
-- [Installation](#installation)
-- [Utilisation](#utilisation)
-- [Méthodes utilisées](#méthodes-utilisées)
-- [Format de l'export](#format-de-lexport)
-- [Limites](#limites)
-- [Problèmes courants](#problèmes-courants)
-- [Versions testées](#versions-testées)
+1. [Installation](#installation)
+2. [Lancer l'application](#lancer-lapplication)
+3. [Ce que fait l'application](#ce-que-fait-lapplication)
+4. [Les notebooks d'analyse](#les-notebooks-danalyse)
+5. [Tests](#tests)
+6. [Organisation du code](#organisation-du-code)
+7. [Fichiers de données](#fichiers-de-données)
+8. [Méthode et limites](#méthode-et-limites)
 
-## Objectif
-
-Le projet répond à deux questions :
-
-1. **Comment les développeurs conçoivent-ils leurs personnages ?** (stats, compétences, effets)
-2. **Peut-on proposer un nouveau personnage plausible**, en laissant l'utilisateur imposer ce qu'il veut (une valeur d'ATK, un percentile de vitesse, un effet comme « Dégâts continus »…) ?
-
-L'outil propose des personnages **plausibles par rapport aux existants**, pas des personnages « optimaux » : il n'y a aucune donnée de combat dans le jeu de données.
-
-## Ce que montre l'analyse
-
-Données : 218 personnages de rareté 4, dont 37 « free » (offerts, souvent plus faibles). Les modèles sont appris sur les **181 non-free**.
-
-- **Stats** : au niveau 100, HP, ATK, MATK, DEF et MDEF valent environ 5 fois leur valeur du niveau 1 ; au niveau 120, ces stats valent 1,2 fois le niveau 100.
-- **Grille** : les valeurs suivent des paliers (au niveau 100 : HP par 75, DEF et MDEF par 15, ATK et MATK par 25). Entre 123 et 143 persos non free sur 181 sont exactement sur la grille selon la stat. Les free la respectent beaucoup moins.
-- **Deux familles** : physique (ATK ≥ MATK, 117 persos) et magique (64 persos). ATK et MATK sont corrélées à −0,78.
-- **Kit** : 59 effets distincts (compétences 1 à 3 et incarnation), taille de kit médiane de 5 éléments. 39 de ces effets concernent moins de 10 persos non free.
-- **Indépendance** : d'après les notebooks 01 et 02, les stats d'un perso n'expliquent pas son kit (et inversement).
-
-## Structure du dépôt
-
-```
-Analyse_Tools_SAOUB_perso/
-├── data/
-│   ├── personnages_fr.json          # données d'entrée (218 personnages)
-│   └── personage_new.json           # persos créés (généré par le notebook 03)
-├── notebook/
-│   ├── 01_Analyse_all_perso.ipynb             # analyse, avec les persos free
-│   ├── 02_Analyse_perso_without_free.ipynb    # même analyse, sans les free
-│   └── 03_Creation_perso.ipynb                # outil de création de personnage
-├── main.py                          # réservé à la future application (vide pour l'instant)
-├── requirements.txt
-└── README.md
-```
-
-## Prérequis
-
-| Outil | Version | Pourquoi |
-|---|---|---|
-| Python | 3.11 ou plus récent (testé avec 3.13) | exigé par PySpark 4.3 |
-| Java | 21 | PySpark tourne sur la JVM |
-| Git | récent | pour cloner le dépôt |
-
-Vérifie tes versions :
-
-```bash
-python --version
-java -version
-```
+---
 
 ## Installation
 
-Remplace `<URL_DU_DEPOT>` par l'adresse du dépôt.
-
-**Windows (PowerShell)**
-
-```powershell
-git clone https://github.com/TT7724/Algo_Genetique_Plantes.git
-cd Analyse_Tools_SAOUB_perso
-python -m venv .venv
-.venv\Scripts\Activate.ps1
-python -m pip install --upgrade pip
-pip install -r requirements.txt
-```
-
-Si PowerShell refuse d'exécuter le script d'activation, autorise-le pour la session en cours, puis relance l'activation :
-
-```powershell
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-```
-
-**Linux / macOS**
+Prérequis : **Python 3.11 ou plus** (`python --version`). Java n'est nécessaire que pour les notebooks (voir plus bas).
 
 ```bash
-git clone https://github.com/TT7724/Algo_Genetique_Plantes.git
-cd Analyse_Tools_SAOUB_perso
-python3 -m venv .venv
-source .venv/bin/activate
-python -m pip install --upgrade pip
+python -m venv .venv
+.venv\Scripts\activate          # Windows (sous Linux/macOS : source .venv/bin/activate)
 pip install -r requirements.txt
 ```
 
-## Utilisation
+Pour **l'application seule** (par exemple sur le PC d'un ami), sans Spark ni Java :
 
-### 1. Ouvrir les notebooks
+```bash
+pip install -r requirements-app.txt
+```
+
+## Lancer l'application
 
 Depuis la racine du projet, environnement activé :
 
 ```bash
-jupyter lab
+streamlit run app.py
 ```
 
-Ouvre ensuite un fichier du dossier `notebook/`. Le noyau Jupyter travaille dans le dossier du notebook, ce qui fait que le chemin `../data/personnages_fr.json` fonctionne tel quel.
+Le navigateur s'ouvre sur `http://localhost:8501`. Le premier chargement prend environ 5 secondes (réglage des moteurs),
+ensuite tout est en mémoire. `Ctrl+C` dans le terminal pour arrêter.
 
-Avec **PyCharm** : choisis `.venv` comme interpréteur du projet et ouvre les notebooks directement.
+**Pour des amis sur le même Wi-Fi** : le terminal affiche aussi une `Network URL` (`http://192.168.x.x:8501`). Ils
+l'ouvrent dans leur navigateur, sans rien installer. Au premier lancement, Windows demande d'autoriser l'accès réseau.
+L'application n'est disponible que pendant que ton PC tourne.
 
-**Rejoue toujours les cellules dans l'ordre**, de haut en bas : chaque cellule s'appuie sur les précédentes.
+## Ce que fait l'application
 
-### 2. Quel notebook ouvrir ?
+Chaque outil et chaque graphique a un bouton **« ? »** qui explique ce qu'il montre, à quoi il sert, comment le lire et
+ses limites.
 
-| Notebook | Rôle | Durée indicative |
-|---|---|---|
-| `01_Analyse_all_perso` | Analyse complète des 218 persos (graphiques, grilles de stats, effets) | quelques minutes |
-| `02_Analyse_perso_without_free` | Même analyse sans les persos free | quelques minutes |
-| `03_Creation_perso` | **L'outil de création** | environ 1 minute |
-
-Les notebooks 01 et 02 contiennent leurs graphiques déjà calculés. Il n'est pas nécessaire de les rejouer pour utiliser l'outil.
-
-### 3. Créer un personnage (notebook 03)
-
-Le notebook est découpé en sections. Pour créer un perso, rejoue les sections de chargement, puis les deux moteurs, puis passe à « Validation du perso ».
-
-1. **Chargement et nettoyage** : session Spark locale, lecture du JSON, drapeau `free`, table des effets, table de travail.
-2. **Moteur de stats** : apprend les lois de probabilité des 8 stats (HP, MP, ATK, MATK, DEF, MDEF, CRIT, SPD) sur les non-free.
-3. **Moteur de kit** : apprend quels effets et rôles vont ensemble.
-4. **Validation du perso** : c'est ici que tu écris tes contraintes et que tu crées un perso.
-5. **Export** : enregistre le perso choisi dans `data/personage_new.json`.
-
-**Contraintes sur les stats** (dictionnaire `CONTRAINTES_STATS`) :
-
-| Règle | Sens | Exemple |
-|---|---|---|
-| `egal` | valeur exacte (arrondie à la grille) | `"ATK": {"egal": 2800}` |
-| `min` / `max` | bornes | `"HP": {"min": 7500, "max": 8500}` |
-| `pct_min` / `pct_max` | percentile parmi les non-free | `"SPD": {"pct_min": 80}` |
-| `famille` | `"physique"` ou `"magique"` | `"famille": "magique"` |
-
-**Contraintes sur le kit** (liste `IMPOSES_KIT`) : des noms exacts d'effets ou de rôles. `display(lister_effets(moteur_kit))` les affiche tous avec leur effectif. Une faute de frappe donne une erreur avec des suggestions.
-
-**Exemple complet :**
-
-```python
-CONTRAINTES_STATS = {"famille": "physique", "ATK": {"egal": 2800}, "SPD": {"pct_min": 80}}
-IMPOSES_KIT = ["Dégâts continus"]
-
-persos = creer_persos(moteur, moteur_kit, CONTRAINTES_STATS, IMPOSES_KIT, n=5, graine=0)
-afficher_persos(persos)
-
-CHOIX = 0
-alertes = valider_perso(moteur, moteur_kit, persos[CHOIX])
-```
-
-**Réglages optionnels :**
-
-- `distance_min=0.6` : n'accepte que des stats à au moins cette distance de tout perso existant (persos plus originaux, sans sortir des plages observées).
-- `temperature_kit=1.5` : tire des effets moins fréquents ; `temperature_stats` élargit la dispersion des stats (à garder en dessous de 1,3).
-- `graine=…` : change le tirage ; la même graine redonne les mêmes résultats.
-
-**Valider un perso imaginé par toi :**
-
-```python
-MON_PERSO = dict(stats={"HP": 7800, "MP": 270, "ATK": 2800, "MATK": 2300,
-                        "DEF": 1500, "MDEF": 1450, "CRIT": 720, "SPD": 335},
-                 kit=["Rôle Break", "Dégâts continus"])
-valider_perso(moteur, moteur_kit, MON_PERSO)
-```
-
-### 4. Lire la validation
-
-`valider_perso` affiche des **signaux**, pas des interdits : un ⚠ signifie « ne ressemble pas à l'existant ».
-
-- **Percentile** : 90 veut dire « meilleur que 90 % des persos non free » sur cette stat.
-- **Distance au plus proche perso réel** (stats) : médiane 0,41 entre persos réels, 95 % sont sous 0,78. Au-delà, le perso est plus atypique que 95 % des vrais.
-- **Distance de Jaccard** (kits) : 0 = kits identiques, 1 = rien en commun. Entre vrais kits : médiane 0,38, 95e percentile 0,56.
-- **Effets rares** : un effet présent chez moins de 10 vrais persos s'appuie sur très peu d'exemples.
-- **Paires jamais vues** : deux éléments qui ne sont jamais ensemble chez les vrais persos alors qu'on en attendrait au moins 3 par hasard.
-- **Vrais persos conformes** : si moins de 10 vrais persos respectent déjà tes contraintes, la proposition vient surtout du modèle et pas d'exemples réels.
-
-### 5. Exporter
-
-```python
-nouveau = exporter_perso(
-    persos[CHOIX], moteur, df_perso_complet,
-    id_perso=999000001,            # un id qui n'existe pas dans le jeu
-    nom="Mon perso", titre="[Mon titre]",
-    element="feu", arme="Épée",    # les valeurs valides s'affichent dans l'erreur si tu te trompes
-    chemin="../data/personage_new.json",
-    parametres=dict(graine=0, contraintes_stats=CONTRAINTES_STATS, imposes_kit=IMPOSES_KIT))
-```
-
-Le fichier `data/personage_new.json` est créé au premier export, puis complété aux suivants. Un id déjà utilisé (dans le jeu ou dans le fichier) est refusé ; `remplacer=True` écrase un perso du fichier.
-
-## Méthodes utilisées
-
-| Étape | Méthode |
+| Page | Contenu |
 |---|---|
-| Stats | Une loi normale à 8 dimensions **par famille** (physique, magique) ; contraintes par **conditionnement gaussien** ; **tirage par rejet** pour les bornes ; arrondi à la grille (HP, ATK, MATK, DEF, MDEF) ou à une valeur déjà vue (MP, CRIT, SPD) |
-| Kit | **Modèle séquentiel** : chaque élément est tiré sachant ceux déjà choisis ; **lissage** vers les fréquences globales (k = 5, choisi par validation croisée « un perso à la fois ») ; regroupement des effets rares en trois niveaux ; **calibrage** des fréquences |
-| Validation | Percentiles, distance au plus proche perso réel sur stats centrées-réduites, distance de Jaccard sur les kits, recherche de paires jamais vues |
+| 🏠 **Accueil** | Compteurs (persos, offerts, effets), alerte s'il y a des phrases de compétences non reconnues, bouton « Recharger les données ». |
+| 📊 **Graphiques** | Filtres communs dans la barre latérale (niveau 100/120/1, tous / sans les offerts, élément, arme, famille, effet, recherche par nom ou titre). **Simple** : répartition, distribution d'une stat, meilleurs/pires, carte d'identité (radar, comparaison de deux persos), effets. **Avancé** : effets × élément, corrélations, menu des valeurs (grille), ordre de sortie, voisins et groupes (dendrogramme), carte 2D (ACP), offre/demande d'états ennemis, complexité du kit, triangles de budget. Chaque graphique a une vue « Voir les données ». |
+| 🛠️ **Création de perso** | Contraintes par listes déroulantes (famille, niveau de chaque stat, valeur exacte, fourchette), effets imposés, originalité (classique / original / audacieux), propositions variées, graine (🎲, saisie manuelle, historique des 20 derniers résultats), diagnostic de chaque proposition, **effets personnalisés**, **export** (téléchargement JSON ou ajout à `data/personage_new.json`, id libre proposé automatiquement). |
+| 🔍 **Vérifier mon perso** | Saisie des stats + effets, ou import d'un JSON (format simple, fiche exportée, fichier complet, ou perso au format du jeu dont le kit est déduit des descriptions). |
+| 📖 **Comment ça marche ?** | L'outil expliqué simplement, avec les chiffres de contrôle recalculés en direct. |
 
-Mesures de contrôle sur les données (sans contrainte) :
+## Les notebooks d'analyse
 
-- Stats : moyennes générées quasi identiques aux réelles, écart moyen de corrélation de 0,02, aucune copie exacte d'un perso réel. L'écart-type des HP générés est un peu plus faible (524 contre 571), car les valeurs hors plage observée sont rejetées.
-- Kit : écart moyen de fréquence de 0,5 point, taille moyenne 4,82 contre 4,83 réellement, 3,7 % de kits identiques à un vrai kit au niveau des groupes.
+Dans `notebook/` : `01_Analyse_all_perso` (avec les persos offerts), `02_Analyse_perso_without_free` (sans),
+`03_Creation_perso` (prototype de l'outil de création).
 
-## Format de l'export
+Ils utilisent **PySpark 4** en local (`local[*]`, driver sur 127.0.0.1) et demandent **Java 21**. Sous Windows, les
+« Python workers » de Spark échouent : les notebooks n'utilisent donc que les fonctions Spark natives (`F.*`) et
+`toPandas()` (pas d'UDF, pas de `createDataFrame`, pas de RDD).
 
-Chaque perso exporté reprend les clés du JSON d'origine, avec :
+Les règles de reconnaissance des effets sont dans `saoub/regles_effets.py` (source unique). Les notebooks peuvent les
+importer au lieu de les recopier :
 
-- les stats aux niveaux 1, 80, 100 et 120 (reconstruites depuis le niveau 100 ; erreur d'au plus 1 point sur les non-free) ;
-- trois clés en plus : `genere` (vrai), `kit_propose` (liste d'effets) et `parametres_generation` (graine et contraintes).
+```python
+import sys; sys.path.insert(0, "..")
+from saoub.regles_effets import SPLIT, EXCLUS, REGLES, BONUS
+```
 
-**Les compétences sont des emplacements vides** : l'outil ne génère ni noms, ni textes, ni puissances, ni coûts en MP. Ils sont à écrire à la main.
+**L'application n'utilise pas Spark** : elle refait les mêmes calculs en pandas. Les tests vérifient que les résultats
+sont identiques à ceux des notebooks.
 
-## Limites
+## Tests
 
-- Seulement 218 persos (181 non-free), tous de rareté 4.
-- Aucune donnée de combat : la puissance réelle n'est pas mesurable, seulement la cohérence avec l'existant.
-- Les stats et le kit sont générés indépendamment, car l'analyse ne montre aucun lien entre eux.
-- Le kit est une liste d'effets pour tout le perso : l'emplacement (compétence 1, 2, 3 ou incarnation) n'est pas modélisé.
-- Le regroupement des effets rares est un choix modifiable (`famille_effet`, `SEUIL_RARE`).
-- Les classifications d'effets (cible d'un effet, catégories) sont aussi des choix.
-- Les propositions d'un même tirage ne sont pas diversifiées entre elles.
+```bash
+pytest
+```
 
-## Problèmes courants
+Environ 2 minutes, 40 tests. Ils vérifient notamment :
 
-| Symptôme | Cause et solution |
+- que la version pandas donne **exactement** les mêmes tables que la version Spark (effets, table de travail) ;
+- qu'à graine égale, les moteurs redonnent **les mêmes persos** que le notebook 03, et que la validation donne **les mêmes
+  alertes** ;
+- que chaque page de l'application s'exécute sans erreur, avec des parcours simulés (création, graine, historique,
+  effets personnalisés, export, import).
+
+Les résultats de référence sont dans `tests/reference/` (produits par les notebooks). Les tests écrivent dans un dossier
+temporaire, jamais dans `data/`.
+
+## Organisation du code
+
+```
+Analyse_Tools_SAOUB_perso/
+├── app.py                    # point d'entrée Streamlit (navigation)
+├── app_commun.py             # chargement en cache, bouton « ? », affichage d'un diagnostic
+├── app_pages/                # une page par fichier
+├── saoub/                    # le paquet (sans Streamlit, testable)
+│   ├── donnees.py            # lecture du JSON, tables de travail
+│   ├── regles_effets.py      # règles de reconnaissance des effets (source unique)
+│   ├── effets.py             # table des effets + registre des effets personnalisés
+│   ├── moteur_stats.py       # moteur de stats
+│   ├── moteur_kit.py         # moteur de kit
+│   ├── creation.py           # assemblage stats + kit
+│   ├── validation.py         # diagnostic d'un perso
+│   ├── export.py             # fiche JSON, fichier des nouveaux persos, import
+│   ├── interface.py          # listes déroulantes -> paramètres des moteurs
+│   ├── graphiques.py         # graphiques Plotly (filtres, onglet Simple, début de l'Avancé)
+│   └── graphiques_avances.py # voisins, dendrogramme, ACP, offre/demande, complexité, triangles
+├── tests/                    # pytest + résultats de référence
+├── notebook/                 # analyses PySpark
+├── data/                     # données (voir ci-dessous)
+└── .streamlit/config.toml    # réglages de l'application
+```
+
+## Fichiers de données
+
+| Fichier | Rôle |
 |---|---|
-| `Python worker failed to connect back` (Windows) | Les « Python workers » de Spark échouent sur certaines machines Windows. Le projet n'utilise ni UDF, ni `createDataFrame`, ni RDD. Pour du code Spark à toi, reste sur les fonctions `F.*` et `toPandas()` |
-| `java` introuvable ou mauvaise version | Vérifie `java -version` (21 attendu). Si besoin, définis `JAVA_HOME`, par exemple `$env:JAVA_HOME = "C:\Program Files\Java\jdk-21"` (adapte le chemin) |
-| `Path does not exist: ../data/personnages_fr.json` | Le notebook n'est pas lancé depuis son dossier. Ouvre-le via `jupyter lab` ou PyCharm, ou modifie `CHEMIN_JSON` |
-| `id … déjà présent dans …/personage_new.json` | Tu rejoues l'export avec un id déjà utilisé. Change `id_perso` ou ajoute `remplacer=True` |
-| `UserWarning: toPandas attempted Arrow optimization…` | Sans danger : PyArrow n'est pas installé, Spark utilise la conversion standard. `pip install pyarrow` est facultatif (non testé sous Windows) |
-| `FutureWarning: Downcasting object dtype…` | Avertissement de pandas dans les notebooks 01 et 02, sans effet sur les résultats |
-| `FutureWarning: PySpark does not yet fully support pandas >= 3.0.0` | Tu as installé pandas 3. Utilise `pip install -r requirements.txt` (pandas est borné à la version 2) |
-| Le résultat de `correspondances` devient faux dans les notebooks 01 et 02 | Ne nomme jamais une variable `p` : elle écrase `p = F.col("p")`. Utilise des noms explicites |
+| `data/personnages_fr.json` | Les persos du jeu (source). Pour une mise à jour du jeu : remplacer ce fichier, puis « Recharger » sur l'accueil. |
+| `data/effets_personnalises.json` | Effets créés dans l'application (créé au premier effet). |
+| `data/personage_new.json` | Persos exportés depuis l'application (créé au premier export). Ids à partir de 999000001. |
 
-## Versions testées
+Les persos offerts (free) sont repérés par une liste d'ids dans `saoub/donnees.py` (`IDS_FREE`) : à compléter si le jeu
+en ajoute.
 
-Développé sous Windows avec PyCharm. L'exécution complète des trois notebooks, de zéro, dans un nouvel environnement virtuel a été vérifiée sous Linux avec :
+## Méthode et limites
 
-Python 3.13 · OpenJDK 21 · pyspark 4.3.0 · pandas 2.3.3 · numpy 2.5.5 · scipy 1.18.1 · matplotlib 3.11.2 · seaborn 0.13.2 · adjustText 1.4.0 · jupyterlab 4.6.6
+**Stats** : une loi normale à 8 dimensions par famille (physique si ATK ≥ MATK, magique sinon), apprise sur les persos non
+offerts ; contraintes par conditionnement gaussien et tirage par rejet ; arrondi à la grille du jeu (niveau 100 : HP par
+75, ATK/MATK par 25, DEF/MDEF par 15) ou à une valeur déjà vue (MP, CRIT, SPD). Niveaux 1, 80 et 120 déduits du niveau 100.
 
-Aucune cellule n'est en erreur.
+**Kit** : effets rares (moins de 10 persos) regroupés en 30 groupes ; taille tirée parmi les tailles réelles ; effets
+ajoutés un par un selon leurs co-occurrences, lissées (k = 5, choisi par validation croisée) et calibrées.
+
+**Validation** : percentiles, plages observées, grille, distance au plus proche vrai perso (référence : médiane 0,41,
+95 % sous 0,78), distance de Jaccard au kit le plus proche, paires d'effets jamais vues ensemble.
+
+**Limites** :
+
+- 218 persos, tous de rareté 4, **aucune donnée de combat** : l'outil propose des persos *plausibles*, pas *optimaux*.
+- Stats et kit sont tirés indépendamment ; un lien faible existe entre richesse du kit et puissance (ρ ≈ +0,19 sans
+  les offerts), non utilisé.
+- Les compétences (1, 2, 3, incarnation) ne sont pas distinguées ; leurs textes, puissances et MP ne sont pas générés.
+- Testé sous Linux (Python 3.13, Streamlit 1.67) ; application prévue pour Windows (sans Spark).
+
+## Licence
+
+À choisir.

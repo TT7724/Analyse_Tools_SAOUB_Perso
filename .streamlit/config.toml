@@ -1,0 +1,5 @@
+[client]
+toolbarMode = "minimal"      # cache le bouton « Deploy »
+
+[browser]
+gatherUsageStats = false
